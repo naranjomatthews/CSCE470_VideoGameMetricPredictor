@@ -101,7 +101,7 @@ def iter_games():
 
 def main():
     total = 0
-    with open(OUT_PATH, "w", encoding="utf-8") as out:
+    with open(PREPROCESSED_OUT_PATH, "w", encoding="utf-8") as out:
         out.write("{\n")
         for app_id, game in iter_games():
             if total:
