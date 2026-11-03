@@ -90,7 +90,8 @@ def save_histogram(name, values, bins=50, max_words=None):
 
 
 # CHANGED: added xlabel and print_top so it works for word counts too
-def save_bar_chart(name, counter, top_n=50, xlabel="Number of Games", print_top=True):
+def save_bar_chart(name, counter, top_n=50, xlabel="Number of Games",
+                   ylabel=None, print_top=True):
     most_common = counter.most_common(top_n)
 
     if not most_common:
@@ -103,7 +104,7 @@ def save_bar_chart(name, counter, top_n=50, xlabel="Number of Games", print_top=
     plt.barh(labels[::-1], counts[::-1])
     plt.title(name)
     plt.xlabel(xlabel)
-    plt.ylabel(name.split(" ")[-1])
+    plt.ylabel(ylabel or name.split(" ")[-1])  # CHANGED: explicit ylabel wins
     plt.tight_layout()
 
     PLOT_DIR.mkdir(exist_ok=True)
@@ -118,13 +119,13 @@ def save_bar_chart(name, counter, top_n=50, xlabel="Number of Games", print_top=
 
 
 # NEW
-def save_top_words(filename, word_counter, doc_counter, top_n=200):
-    """Write the top_n words to a tab-separated text file: rank, word, total count, games containing it."""
+def save_top_words(filename, ranked_by, other, ranked_label, other_label, top_n=200):
+    """Write top_n words (ranked by `ranked_by`) to a tab-separated text file."""
     path = OUT_DIR / filename
     with open(path, "w", encoding="utf-8") as f:
-        f.write("rank\tword\tcount\tgames\n")
-        for rank, (word, count) in enumerate(word_counter.most_common(top_n), start=1):
-            f.write(f"{rank}\t{word}\t{count}\t{doc_counter[word]}\n")
+        f.write(f"rank\tword\t{ranked_label}\t{other_label}\n")
+        for rank, (word, value) in enumerate(ranked_by.most_common(top_n), start=1):
+            f.write(f"{rank}\t{word}\t{value}\t{other[word]}\n")
     print(f"Saved top {top_n} words to: {path}")
 
 
@@ -181,10 +182,25 @@ def main():
     save_bar_chart("Top 50 Categories", all_categories)
 
     # NEW: top 50 word charts + top 200 word files
-    save_bar_chart("Top 50 Title Words", title_words, xlabel="Total Occurrences", print_top=False)
-    save_bar_chart("Top 50 Description Words", desc_words, xlabel="Total Occurrences", print_top=False)
-    save_top_words("top_200_title_words.txt", title_words, title_doc_freq)
-    save_top_words("top_200_description_words.txt", desc_words, desc_doc_freq)
+    # Rankings by total occurrences
+    save_bar_chart("Top 50 Title Words By Count", title_words,
+                   xlabel="Total Occurrences", ylabel="Words", print_top=False)
+    save_bar_chart("Top 50 Description Words By Count", desc_words,
+                   xlabel="Total Occurrences", ylabel="Words", print_top=False)
+    save_top_words("top_200_title_words_by_count.txt",
+                   title_words, title_doc_freq, "count", "games")
+    save_top_words("top_200_description_words_by_count.txt",
+                   desc_words, desc_doc_freq, "count", "games")
+
+    # Rankings by number of games containing the word
+    save_bar_chart("Top 50 Title Words By Games", title_doc_freq,
+                   xlabel="Number of Games", ylabel="Words", print_top=False)
+    save_bar_chart("Top 50 Description Words By Games", desc_doc_freq,
+                   xlabel="Number of Games", ylabel="Words", print_top=False)
+    save_top_words("top_200_title_words_by_games.txt",
+                   title_doc_freq, title_words, "games", "count")
+    save_top_words("top_200_description_words_by_games.txt",
+                   desc_doc_freq, desc_words, "games", "count")
 
     save_histogram("Game Title Word Count", title_lengths)
     save_histogram("Game Description Word Count", description_lengths, max_words=2000)
