@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+import html 
 import ijson 
 
 DATA_PATH = Path(__file__).parent.parent / "Data" / "games.json"
@@ -38,22 +39,17 @@ def iter_games():
 def main():
 
     for game in iter_games():
+
         total += 1
         title = game.get("name", "")
         description = game.get("about_the_game", "")
 
-        # title_lengths.append(word_count(title))
-        # description_lengths.append(word_count(description))
-        # all_tags.update(get_list(game.get("tags")))
-        # all_categories.update(get_list(game.get("categories")))
+        tags = game.get("tags")
+        categories = game.get("categories")
 
-        # # NEW: individual word counts
-        # title_tokens = tokenize(title)
-        # desc_tokens = tokenize(description)
-        # title_words.update(title_tokens)
-        # title_doc_freq.update(set(title_tokens))
-        # desc_words.update(desc_tokens)
-        # desc_doc_freq.update(set(desc_tokens))
+        title_tokens = tokenize(title)
+        desc_tokens = tokenize(description)
+
 
         if total % 1000 == 0:
             print("finished " + str(total))
