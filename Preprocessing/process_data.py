@@ -13,7 +13,7 @@ PREPROCESSED_OUT_PATH = DATA_DIR / "preprocessed_data.json"
 TAG_RE = re.compile(r"<[^>]+>")
 WORD_RE = re.compile(r"[a-z0-9]+(?:'[a-z]+)?")
 
-REMOVE_STOPWORDS = False
+REMOVE_STOPWORDS = True
 STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "from",
     "has", "have", "he", "in", "is", "it", "its", "of", "on", "or", "that",
@@ -76,6 +76,19 @@ def build_record(game):
         "recommendations": to_int(game.get("recommendations")),
         "downloads": parse_owners(game.get("estimated_owners", "")),
     }
+
+def tokenize_labels(values):
+    """Tokenize labels from a tags dictionary or genres list."""
+    if isinstance(values, dict):
+        values = values.keys()
+    elif not isinstance(values, list):
+        return []
+
+    tokens = []
+    for value in values:
+        tokens.extend(tokenize(value))
+    return tokens
+
 
 def iter_games():
     ITEMS_PREFIX = ""
