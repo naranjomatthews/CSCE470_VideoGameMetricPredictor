@@ -2,8 +2,12 @@ from pathlib import Path
 import re
 import html 
 import ijson 
+import json
+from collections import Counter
 
-DATA_PATH = Path(__file__).parent.parent / "Data" / "games.json"
+DATA_DIR = Path(__file__).parent.parent / "Data"
+DATA_PATH = DATA_DIR / "test_games.json"
+PREPROCESSED_OUT_PATH = DATA_DIR / "preprocessed_data.json"
 
 # tokenizer pieces
 TAG_RE = re.compile(r"<[^>]+>")
@@ -27,34 +31,76 @@ def tokenize(text):
         tokens = [t for t in tokens if t not in STOPWORDS]
     return tokens
 
+def names_to_tokens(value):
+    """Tokenize a list of names (genres) or a dict keyed by name (tags)."""
+    if isinstance(value, dict):
+        names = value.keys()
+    elif isinstance(value, list):
+        names = value
+    elif isinstance(value, str):
+        names = [value]
+    else:
+        names = []
+    tokens = []
+    for name in names:
+        tokens.extend(tokenize(name))
+    return tokens
+
+def parse_owners(s):
+    """'0 - 20000' -> midpoint (10000). Returns 0 if unparseable."""
+    nums = [int(n) for n in re.findall(r"\d+", str(s).replace(",", ""))]
+    return sum(nums) // len(nums) if nums else 0
+
+def to_int(x):
+    try:
+        return int(x or 0)
+    except (TypeError, ValueError):
+        return 0
+
+
+def build_record(game):
+    positive = to_int(game.get("positive"))
+    negative = to_int(game.get("negative"))
+    votes = positive + negative
+
+    return {
+        "title_bow": dict(Counter(tokenize(game.get("name", "")))),
+        "description_bow": dict(Counter(tokenize(game.get("about_the_game", "")))),
+        "tags_bow": dict(Counter(names_to_tokens(game.get("tags")))),
+        "genres_bow": dict(Counter(names_to_tokens(game.get("genres")))),
+
+        # non-textual features
+        "rating": round(positive / votes, 4) if votes else 0.0,
+        "positive": positive,
+        "negative": negative,
+        "recommendations": to_int(game.get("recommendations")),
+        "downloads": parse_owners(game.get("estimated_owners", "")),
+    }
 
 def iter_games():
+    ITEMS_PREFIX = ""
     with open(DATA_PATH, "rb") as f:
-        # Yields (app_id, game_dict) one at a time, never the whole file
-        for _, game in ijson.kvitems(f, ""):
+        # use_float=True: otherwise ijson returns Decimal, which json can't write
+        for app_id, game in ijson.kvitems(f, ITEMS_PREFIX, use_float=True):
             if isinstance(game, dict):
-                yield game
+                yield app_id, game
 
 
 def main():
+    total = 0
+    with open(OUT_PATH, "w", encoding="utf-8") as out:
+        out.write("{\n")
+        for app_id, game in iter_games():
+            if total:
+                out.write(",\n")
+            out.write(json.dumps(app_id) + ":" + json.dumps(build_record(game), separators=(",", ":")))
 
-    for game in iter_games():
+            total += 1
+            if total % 1000 == 0:
+                print("finished " + str(total))
+        out.write("\n}\n")
 
-        total += 1
-        title = game.get("name", "")
-        description = game.get("about_the_game", "")
-
-        tags = game.get("tags")
-        categories = game.get("categories")
-
-        title_tokens = tokenize(title)
-        desc_tokens = tokenize(description)
-
-
-        if total % 1000 == 0:
-            print("finished " + str(total))
-
-    pass 
+    print(f"done: wrote {total} games to {PREPROCESSED_OUT_PATH}")
 
 
 if __name__ == "__main__":
