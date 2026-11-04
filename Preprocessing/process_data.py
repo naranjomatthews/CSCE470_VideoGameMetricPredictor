@@ -63,11 +63,22 @@ def build_record(game):
     negative = to_int(game.get("negative"))
     votes = positive + negative
 
+    title_tokens = tokenize(game.get("name", ""))
+    description_tokens = tokenize(game.get("about_the_game", ""))
+    tags_tokens = names_to_tokens(game.get("tags"))
+    genres_tokens = names_to_tokens(game.get("genres"))
+
     return {
-        "title_bow": dict(Counter(tokenize(game.get("name", "")))),
-        "description_bow": dict(Counter(tokenize(game.get("about_the_game", "")))),
-        "tags_bow": dict(Counter(names_to_tokens(game.get("tags")))),
-        "genres_bow": dict(Counter(names_to_tokens(game.get("genres")))),
+        "title_bow": dict(Counter(title_tokens)),
+        "description_bow": dict(Counter(description_tokens)),
+        "tags_bow": dict(Counter(tags_tokens)),
+        "genres_bow": dict(Counter(genres_tokens)),
+
+        # lengths
+        "title_length": len(title_tokens),
+        "description_length" : len(description_tokens),
+        "tags_length" : len(tags_tokens),
+        "genres_length" :len(genres_tokens),
 
         # non-textual features
         "rating": round(positive / votes, 4) if votes else 0.0,
