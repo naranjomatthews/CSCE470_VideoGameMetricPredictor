@@ -5,9 +5,8 @@ import ijson
 import json
 from collections import Counter
 
-DATA_DIR = Path(__file__).parent.parent / "Data"
-DATA_PATH = DATA_DIR / "test_games.json"
-PREPROCESSED_OUT_PATH = DATA_DIR / "preprocessed_data.json"
+DATA_PATH = Path(__file__).parent / "miniDataSet.json"
+PREPROCESSED_OUT_PATH = Path(__file__).parent / "preprocessed_mini_data.json"
 
 # tokenizer pieces
 TAG_RE = re.compile(r"<[^>]+>")
@@ -88,26 +87,47 @@ def build_record(game):
         "downloads": parse_owners(game.get("estimated_owners", "")),
     }
 
-def tokenize_labels(values):
-    """Tokenize labels from a tags dictionary or genres list."""
-    if isinstance(values, dict):
-        values = values.keys()
-    elif not isinstance(values, list):
-        return []
+def build_inverted_index(games):
+    """Build a term index with field frequencies and matching document IDs."""
+    postings = {}
+    fields = ("title_bow", "description_bow", "tags_bow", "genres_bow")
 
-    tokens = []
-    for value in values:
-        tokens.extend(tokenize(value))
-    return tokens
+    for app_id, game in games:
+        document_id = str(app_id)
+        record = build_record(game)
+        field_bows = [
+            record["title_bow"],
+            record["description_bow"],
+            record["tags_bow"],
+            record["genres_bow"],
+        ]
+
+        for field_index, field_bow in enumerate(field_bows):
+            for term, frequency in field_bow.items():
+                entry = postings.setdefault(
+                    term,
+                    {"frequency": [0, 0, 0, 0], "docList": []},
+                )
+                entry["frequency"][field_index] += frequency
+                if document_id not in entry["docList"]:
+                    entry["docList"].append(document_id)
+
+    return postings
 
 
-def iter_games():
-    ITEMS_PREFIX = ""
-    with open(DATA_PATH, "rb") as f:
+def iter_games(data_path=DATA_PATH, items_prefix="games"):
+    with open(data_path, "rb") as f:
         # use_float=True: otherwise ijson returns Decimal, which json can't write
-        for app_id, game in ijson.kvitems(f, ITEMS_PREFIX, use_float=True):
+        for app_id, game in ijson.kvitems(f, items_prefix, use_float=True):
             if isinstance(game, dict):
                 yield app_id, game
+
+
+def test_inverted_index():
+    """Print the inverted index generated from the mini dataset."""
+    inverted_index = build_inverted_index(iter_games())
+    print("Inverted index for miniDataSet.json:")
+    print(json.dumps(inverted_index, indent=2))
 
 
 def main():
@@ -129,3 +149,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    test_inverted_index()
