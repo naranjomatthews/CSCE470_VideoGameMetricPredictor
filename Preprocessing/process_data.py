@@ -5,8 +5,14 @@ import ijson
 import json
 from collections import Counter
 
-DATA_PATH = Path(__file__).parent / "miniDataSet.json"
-PREPROCESSED_OUT_PATH = Path(__file__).parent / "preprocessed_mini_data.json"
+TESTING = True
+TEST_SIZE = 200
+
+DATA_FOLDER = DATA_PATH = Path(__file__).parent.parent / "Data" 
+DATA_PATH = DATA_FOLDER / "games.json"
+
+PREPROCESSED_OUT_PATH = DATA_FOLDER / "preprocessed_games.json"
+INVERTED_OUT_PATH = DATA_FOLDER / "inverted_index.json"
 
 # tokenizer pieces
 TAG_RE = re.compile(r"<[^>]+>")
@@ -57,10 +63,7 @@ def to_int(x):
         return 0
 
 
-def build_record(game):
-    positive = to_int(game.get("positive"))
-    negative = to_int(game.get("negative"))
-    votes = positive + negative
+def get_field_bows(game):
 
     title_tokens = tokenize(game.get("name", ""))
     description_tokens = tokenize(game.get("about_the_game", ""))
@@ -72,12 +75,25 @@ def build_record(game):
         "description_bow": dict(Counter(description_tokens)),
         "tags_bow": dict(Counter(tags_tokens)),
         "genres_bow": dict(Counter(genres_tokens)),
+    }
+
+
+def build_record(game, field_bows):
+    positive = to_int(game.get("positive"))
+    negative = to_int(game.get("negative"))
+    votes = positive + negative
+
+    return {
+        "title_bow": field_bows["title_bow"],
+        "description_bow": field_bows["description_bow"],
+        "tags_bow": field_bows["tags_bow"],
+        "genres_bow": field_bows["genres_bow"],
 
         # lengths
-        "title_length": len(title_tokens),
-        "description_length" : len(description_tokens),
-        "tags_length" : len(tags_tokens),
-        "genres_length" :len(genres_tokens),
+        "title_length": len(field_bows["title_bow"].keys()),
+        "description_length" : len(field_bows["description_bow"].keys()),
+        "tags_length" : len(field_bows["tags_bow"].keys()),
+        "genres_length" :len(field_bows["genres_bow"].keys()),
 
         # non-textual features
         "rating": round(positive / votes, 4) if votes else 0.0,
@@ -87,66 +103,61 @@ def build_record(game):
         "downloads": parse_owners(game.get("estimated_owners", "")),
     }
 
-def build_inverted_index(games):
-    """Build a term index with field frequencies and matching document IDs."""
-    postings = {}
-    fields = ("title_bow", "description_bow", "tags_bow", "genres_bow")
+def build_inverted_index(game_id, field_bows, postings):
+    """Adds to running inverted index given a game"""
 
-    for app_id, game in games:
-        document_id = str(app_id)
-        record = build_record(game)
-        field_bows = [
-            record["title_bow"],
-            record["description_bow"],
-            record["tags_bow"],
-            record["genres_bow"],
-        ]
+    game_id = str(game_id)
 
-        for field_index, field_bow in enumerate(field_bows):
-            for term, frequency in field_bow.items():
-                entry = postings.setdefault(
-                    term,
-                    {"frequency": [0, 0, 0, 0], "docList": []},
-                )
-                entry["frequency"][field_index] += frequency
-                if document_id not in entry["docList"]:
-                    entry["docList"].append(document_id)
+    for field_index, field_bow in enumerate(field_bows):
+        for term, frequency in field_bows[field_bow].items():
 
-    return postings
+            # Consider filtering STOP words depending on field_bow before adding 
+
+            entry = postings.setdefault(
+                term,
+                {"frequency": [0, 0, 0, 0], "docList": []},
+            )
+            entry["frequency"][field_index] += frequency
+            if game_id not in entry["docList"]:
+                entry["docList"].append(game_id)
 
 
-def iter_games(data_path=DATA_PATH, items_prefix="games"):
+def iter_games(data_path=DATA_PATH, items_prefix=""):
     with open(data_path, "rb") as f:
         # use_float=True: otherwise ijson returns Decimal, which json can't write
         for app_id, game in ijson.kvitems(f, items_prefix, use_float=True):
             if isinstance(game, dict):
                 yield app_id, game
 
-
-def test_inverted_index():
-    """Print the inverted index generated from the mini dataset."""
-    inverted_index = build_inverted_index(iter_games())
-    print("Inverted index for miniDataSet.json:")
-    print(json.dumps(inverted_index, indent=2))
-
-
 def main():
     total = 0
+    postings = {}
     with open(PREPROCESSED_OUT_PATH, "w", encoding="utf-8") as out:
         out.write("{\n")
+
         for app_id, game in iter_games():
+
+            field_bows = get_field_bows(game)
+            build_inverted_index(app_id, field_bows, postings)
+
             if total:
                 out.write(",\n")
-            out.write(json.dumps(app_id) + ":" + json.dumps(build_record(game), separators=(",", ":")))
+            out.write(json.dumps(app_id) + ":" + json.dumps(build_record(game, field_bows), separators=(",", ":")))
 
             total += 1
             if total % 1000 == 0:
                 print("finished " + str(total))
+
+            if TESTING and total >= TEST_SIZE:
+                break
+
         out.write("\n}\n")
+
+    with open(INVERTED_OUT_PATH, "w", encoding="utf-8") as out:
+        out.write(json.dumps(postings, indent=1))
 
     print(f"done: wrote {total} games to {PREPROCESSED_OUT_PATH}")
 
 
 if __name__ == "__main__":
     main()
-    test_inverted_index()
