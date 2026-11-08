@@ -2,6 +2,7 @@ from pathlib import Path
 import math
 import ijson
 import json
+import re #helps extract numbers from a string
 
 #how many games will be output in final ranking
 topX = 10
@@ -10,6 +11,10 @@ topX = 10
 DATA_FOLDER = DATA_PATH = Path(__file__).parent.parent / "Data" 
 GAMES_PATH = DATA_FOLDER / "preprocessed_games.json"
 INVERTED_INDEX_PATH = DATA_FOLDER / "inverted_index.json"
+
+#paths to the the original game data and ranking results
+RAW_GAMES_PATH = DATA_FOLDER / "games.json"
+RANKINGS_PATH = DATA_FOLDER / "rankings.json"
 
 class bm25ranker:
 
@@ -180,6 +185,86 @@ class bm25ranker:
             for key in self.fieldData.keys():
                 self.fieldData[key]["avgLength"] /= self.gameCount 
 
+    #retrieve game info using list of docIDs
+    def getGameData(self, docIDs):
+        #store id of games wanted
+        wanted = {str(docID) for docID in docIDs}
+
+        #store games that are found
+        found = {}
+
+        with open(RAW_GAMES_PATH, "rb") as game_file:
+            for gameID, game in ijson.kvitems(game_file, "", use_float=True):
+                if gameID not in wanted:
+                    continue
+                #retrieve and convert tag dicts to lists
+                tags = game.get("tags", [])
+                if isinstance(tags, dict):
+                    tags = list(tags.keys())
+
+                # retrieve review counts
+                positive = int(game.get("positive") or 0)
+                negative = int(game.get("negative") or 0)
+                votes = positive + negative
+
+                #retrieve number of estimated owners
+                owner_numbers = re.findall(r"\d+", str(game.get("estimated_owners", "")).replace(",", ""))
+
+                #retrieve download estimates
+                downloads = (sum(int(n) for n in owner_numbers) if owner_numbers else 0)
+
+                #store the relevant game info in the dict
+                found[gameID] = {
+                    "title": game.get("name", ""),
+                    "description": game.get("about_the_game", "") or game.get("short_description", ""),
+                    "tags": tags,
+                    "genres": game.get("genres", []),
+                    "rating": round(positive / votes, 4) if votes else 0.0,
+                    "positive": positive,
+                    "negative": negative,
+                    "recommendations": int(game.get("recommendations") or 0),
+                    "downloads": downloads
+                }
+
+                #exit loop once all games are found
+                if len(found) == len(wanted):
+                    break
+
+        return found
+
+    #sort by score and save games in a JSON file
+    def save_rankings(self, query, scores):
+        sorted_scores = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
+
+        docIDs = [gameID for gameID, score in sorted_scores]
+
+        game_data = self.getGameData(docIDs) if RAW_GAMES_PATH.exists() else {}
+
+        rankings = []
+
+        for rank, (gameID, score) in enumerate(sorted_scores, start=1):
+            result = {
+                "rank": rank,
+                "docID": gameID,
+                "score": round(score, 6)
+            }
+
+            if gameID in game_data:
+                result.update(game_data[gameID])
+
+            rankings.append(result)
+
+        with open(RANKINGS_PATH, "w", encoding="utf-8") as output_file:
+            json.dump(
+                {
+                    "query": query,
+                    "rankings": rankings
+                },
+                output_file,
+                indent=2
+            )
+
+        return rankings
 
 def main():
     bm25f = bm25ranker()
@@ -205,8 +290,7 @@ def main():
                 queryBow[word] += 1
         
         topGames = bm25f.calculateScore(queryBow)
-        for game in topGames.keys():
-             print(str(game) + ": " + str(topGames[game]))
+        rankings = bm25f.save_rankings(query, topGames) #save rankings to JSON file
 
 if __name__ == "__main__":
     main()
