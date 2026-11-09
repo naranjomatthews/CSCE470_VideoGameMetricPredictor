@@ -37,28 +37,28 @@ class bm25ranker:
                 "lengthKey" : "title_length",
                 "bowKey" : "title_bow",
                 "weight" : 0.9,
-                "bWeight" : 0.5,
+                "bWeight" : 0.1,
                 "avgLength" : 0.0
             },
             "description" : {
                 "lengthKey" : "description_length",
                 "bowKey" : "description_bow",
-                "weight" : 0.1,
-                "bWeight" : 0.5,
+                "weight" : 0.3,
+                "bWeight" : 0.7,
                 "avgLength" : 0.0
             },
             "tags" : {
                 "lengthKey" : "tags_length",
                 "bowKey" : "tags_bow",
-                "weight" : 0.9,
-                "bWeight" : 0.5,
+                "weight" : 0.7,
+                "bWeight" : 0.1,
                 "avgLength" : 0.0
             },
             "genres" : {
                 "lengthKey" : "genres_length",
                 "bowKey" : "genres_bow",
                 "weight" : 0.9,
-                "bWeight" : 0.5,
+                "bWeight" : 0.1,
                 "avgLength" : 0.0
             }
         }
@@ -68,19 +68,19 @@ class bm25ranker:
         #can be manually adjusted
         self.ntfs = {
             "rating" :{
-                "lambda" : 0.1,
+                "lambda" : 0.05,
                 "lambdaPrime" : 1.0
             },
             "positive" :{
-                "lambda" : 0.1,
+                "lambda" : 0.05,
                 "lambdaPrime" : 1.0
             },
             "negative" :{
-                "lambda" : 0.1,
+                "lambda" : 0.05,
                 "lambdaPrime" : 1.0
             },
             "recommendations" :{
-                "lambda" : 0.1,
+                "lambda" : 0.05,
                 "lambdaPrime" : 1.0
             },
             "downloads" :{
