@@ -1,0 +1,1371 @@
+{
+  "games" : {
+    "496350": {
+      "name": "Supipara - Chapter 1 Spring Has Come!",
+      "release_date": "Jul 29, 2016",
+      "required_age": 0,
+      "price": 5.24,
+      "dlc_count": 0,
+      "detailed_description": "Springtime, April: when the cherry trees come into full bloom. The protagonist Yukinari Sanada has returned to his hometown in Kanagawa Prefecture, Kamakura City, for the first time in seven years, and is greeted by his older cousin Sakura Narumi (complete with maid outfit). He wanted to live in peace, but his life at the academy placed on the coastlands becomes bustling and brilliant while surrounded by a lineup of girls with booming personalities like Hotaru Amano, the sharp tongued, half-Japanese beauty, and Alice Kamishiro, the lazy witch who loves modern-science and mail-orders. Eventually, our protagonist is coaxed into joining the action committee for the academy's traditional beauty contest by his close friend. He interacts with the heroines participating in this contest who are cute but each have an idiocyncrasy or two. Fun events (with their own difficulties) pop up again and again. Your story with 'her' about smiles, peace, passion, and love, all while borrowing the power of a witch, is about to begin! 'Supipara - Alice the Magical Conductor.' is an interactive novel themed around 'dynamicism' depicted through a rallying all of the production techniques minori has accumulated to date. See expressive character portraits with moving eyes, mouths, even hair! It is quite immersive in many aspects. Also, 'Supipara' won't conclude in a single game. It will be released as several standalone episodes. Fans may freely pursue only the episodes that interest them if so desired. You could say 'it's a light novel series, and independent stories which develop their own unique personalities all in one.'",
+      "about_the_game": "Springtime, April: when the cherry trees come into full bloom. The protagonist Yukinari Sanada has returned to his hometown in Kanagawa Prefecture, Kamakura City, for the first time in seven years, and is greeted by his older cousin Sakura Narumi (complete with maid outfit). He wanted to live in peace, but his life at the academy placed on the coastlands becomes bustling and brilliant while surrounded by a lineup of girls with booming personalities like Hotaru Amano, the sharp tongued, half-Japanese beauty, and Alice Kamishiro, the lazy witch who loves modern-science and mail-orders. Eventually, our protagonist is coaxed into joining the action committee for the academy's traditional beauty contest by his close friend. He interacts with the heroines participating in this contest who are cute but each have an idiocyncrasy or two. Fun events (with their own difficulties) pop up again and again. Your story with 'her' about smiles, peace, passion, and love, all while borrowing the power of a witch, is about to begin! 'Supipara - Alice the Magical Conductor.' is an interactive novel themed around 'dynamicism' depicted through a rallying all of the production techniques minori has accumulated to date. See expressive character portraits with moving eyes, mouths, even hair! It is quite immersive in many aspects. Also, 'Supipara' won't conclude in a single game. It will be released as several standalone episodes. Fans may freely pursue only the episodes that interest them if so desired. You could say 'it's a light novel series, and independent stories which develop their own unique personalities all in one.'",
+      "short_description": "Spring has come, and our protagonist, Yukinari, returns home after 7 years. Between his second cousin Sakura, who meets him outside in a full maid outfit, Hotaru, a half-Japanese beauty with a sharp tongue, and the lazy scheming witch Alice - life just got way more interesting!",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/header.jpg?t=1725519097",
+      "website": "http://mangagamer.org/supipara",
+      "support_url": "http://mangagamer.com",
+      "support_email": "support@mangagamer.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 231,
+      "notes": "",
+      "supported_languages": [
+        "English"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy Supipara - Chapter 1 Spring Has Come!",
+          "description": "",
+          "subs": [
+            {
+              "text": "Supipara - Alice the magical conductor. Chapter #01 - Spring Has Come! - $14.99 $5.24",
+              "description": "",
+              "price": 5.24
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "minori"
+      ],
+      "publishers": [
+        "MangaGamer"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Adventure"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_0a5ff85870a1c2221e495b75a5c7b9e248eb3249.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_f53e18a6c7be8eeb39e7c8efff8395b444786f68.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_1f86a8d171a549c504acd6592f559fc4bd9bd448.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_f40b6e8e535047b60412b8f102b907cb2317d53d.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_32c2149186b260804a2a8bed8e595f36228f8e16.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_abc2fe50c29b2621ae970f846a1e11d2e66c7394.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_020efba82647ba7aeb72185ab0becfc53c68238f.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_3fa4c80d58d7c156d30a0098ed57a236257afc9c.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_96b7faa121b03555c6a31877fbcdac961bccdadc.1920x1080.jpg?t=1725519097",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/496350/ss_d0bfd6e4501bf94d7cd7727d2f1d085a86d68adb.1920x1080.jpg?t=1725519097"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 252,
+      "negative": 3,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 8,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 8,
+      "median_playtime_2weeks": 0,
+      "discount": "65",
+      "peak_ccu": 0,
+      "tags": {
+        "Adventure": 27,
+        "Visual Novel": 19,
+        "Anime": 19,
+        "Cute": 7
+      }
+    },
+    "700340": {
+      "name": "Galacatraz: Eject Equip Escape",
+      "release_date": "Feb 1, 2018",
+      "required_age": 0,
+      "price": 0.99,
+      "dlc_count": 0,
+      "detailed_description": "Years ago, Ricardo Luger was in the wrong place at the wrong time. Imprisoned for a crime he didn't commit and hardened by years at space labor camps, Luger was surprised to find himself accidentally freed by his captors. You must help him escape his space prison and return to a regular life. Galacatraz is a side scrolling, twin stick shooter, platformer set on a prison in outer space. You must utilize a variety of weapons and movement upgrades to defeat the guards and their Captain, as you seek a way off the ship. Features Four distinct stages, each with multiples levels. Multiple unique boss encounters. Use Double Jump to dominate enemies. Use Wall Jump to reach new locations. Use Rocket Jump to fly around uncontrollably. Challenge yourself by beating each level before the clock runs out! Message from the Devs Have you ever wondered what it would look like to try and make a game during three months of your summer break? Well, so did we. Gaze with wonder at this remarkable feat of compromise and learned lessons ! Is it the greatest game ever? Well, no, BUT its totally worth spending a buck or two to check out. Thanks for reading this! ~Jerry GAMEPAD REQUIRED! ",
+      "about_the_game": "Years ago, Ricardo Luger was in the wrong place at the wrong time. Imprisoned for a crime he didn't commit and hardened by years at space labor camps, Luger was surprised to find himself accidentally freed by his captors. You must help him escape his space prison and return to a regular life. Galacatraz is a side scrolling, twin stick shooter, platformer set on a prison in outer space. You must utilize a variety of weapons and movement upgrades to defeat the guards and their Captain, as you seek a way off the ship. Features Four distinct stages, each with multiples levels. Multiple unique boss encounters. Use Double Jump to dominate enemies. Use Wall Jump to reach new locations. Use Rocket Jump to fly around uncontrollably. Challenge yourself by beating each level before the clock runs out! Message from the Devs Have you ever wondered what it would look like to try and make a game during three months of your summer break? Well, so did we. Gaze with wonder at this remarkable feat of compromise and learned lessons ! Is it the greatest game ever? Well, no, BUT its totally worth spending a buck or two to check out. Thanks for reading this! ~Jerry GAMEPAD REQUIRED! ",
+      "short_description": "Escape Galacatraz, the universe's most secure detainment facility, in this side scrolling twin stick shooter! GAMEPAD REQUIRED!",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/header.jpg?t=1517945104",
+      "website": "",
+      "support_url": "http://www.summerbearstudio.com",
+      "support_email": "support@summerbearstudio.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English"
+      ],
+      "full_audio_languages": [
+        "English"
+      ],
+      "packages": [
+        {
+          "title": "Buy Galacatraz: Eject Equip Escape",
+          "description": "",
+          "subs": [
+            {
+              "text": "Galacatraz: Eject Equip Escape - $0.99",
+              "description": "",
+              "price": 0.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Summer Bear Studio"
+      ],
+      "publishers": [
+        "Summer Bear Studio"
+      ],
+      "categories": [
+        "Single-player",
+        "Full controller support",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Action",
+        "Indie"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/ss_58ce5d8652d950afc62b546170f4eb9727d1dbfa.1920x1080.jpg?t=1517945104",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/ss_c57c87319a9829ec10307a6fdce8dd503e90cbd5.1920x1080.jpg?t=1517945104",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/ss_f4bcedabf82a0ff8ee261f9bfdf6bda9f72ed27d.1920x1080.jpg?t=1517945104",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/ss_3ffd4676d55354a1ea21b95819db20b55809b9f4.1920x1080.jpg?t=1517945104",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/700340/ss_b6b56d27afbf0e62255eebb2b5c4c43f21783215.1920x1080.jpg?t=1517945104"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": []
+    },
+    "1025440": {
+      "name": "Fantasy General II",
+      "release_date": "Sep 5, 2019",
+      "required_age": 0,
+      "price": 13.99,
+      "dlc_count": 4,
+      "detailed_description": "Hero Edition The Hero Edition features exclusive contents in addition to the base game. Play an exciting prequel campaign, get the magic soundtrack (20 total tracks, from Fantasy General and Fantasy General II!), the artbook of the game and a map of the world of Aer. Base game with a 33 scenarios campaign Tale of Falir prequel campaign Digital soundtrack 104 pages long Digital Artbook Printable world map General Edition The General Edition is the ultimate edition for Fantasy General II: Invasion! It comprises of the base game, plus all the goods included in the Hero Edition, as well as the first two future expansions. It is a tremendous way to save on future content: by acquiring them through the General Edition you will take advantage of a significant discount. Base game with a 33 scenarios campaign Tale of Falir prequel campaign Digital soundtrack (20 tracks from Fantasy General and Fantasy General II!) 104 pages long digital Artbook Printable world map Two future expansions About the Game Three hundred years have passed since the Shadow Wars have ravaged Keldonia and the world of Aer, and the struggles of the past have long since faded into legends. In the Highlands of Fareach, Clans of Barbarian warriors have eked out a living in the harsh northern climate, constantly feuding with each other and raiding the wealthier Borderland towns. Fed up with these constant attacks, the Borderland Clans called on the Empire for help – a powerful realm controlling the land from the Scarlett Mountains to Cynehelm Valley and the Hoarwood. The Western Imperial Legion was sent to face the highland raiders, and with the help of the Borderland clans Iseal and Machnar, killed High King Brendan in the battle of Wyrm’s Pass. A treaty was signed that forbade any clan from crossing into the Borderlands in return for peace. Since then, there has been no High King to unite the Clans, and they fell into quarrelling and raiding amongst themselves. In these dark times your clan has been led by Falir One-Eye, a warrior of great renown. You are his son and designated heir, and you are eager to prove your mettle to the Clan Council and your father… The Legacy Fantasy General II: Invasion is the reimagination of the strategy game classic from the 90s! Armies once again draw battle-lines on the war-torn land of Keldonia, and a new generation of commanders will test their bravery and tactics against each other. Fantasy wargaming is back! The Battles True to the tradition of the original game, Fantasy General II is all about turn-based battles. Lead over 75 different unique unit types, including powerful heroes. Take into consideration terrain, weapons and armour, magical effects, morale, and the balance of forces, make a plan, execute it, and vanquish your enemy, forging your reputation as a savage war-leader. The Campaign Battle after battle, you will need to make decisions and develop your army. The young clan members will need to be trained, and as they gain enough experience, even the greenest recruits can be turned into champions. But beware: costly victories can be worse than a defeat… when battle-hardened units perish, so does their progression and experience. Each unit comes with their specific abilities, arms and armour, and they can be equipped with magic artefacts you find during battle and upgraded with gold and resources that you need to plunder from your enemy. The Clans A confederation of autonomous hill-land tribes, who value their independence and will fight fiercely for it. Field axemen, berserkers, spearmaidens, trolls and shamans, summon ancestor spirits and mighty elementals or train nimble stag riders and deadly werebears or recruit mercenaries from longbowmen to centaurs. The Empire The most powerful realm on the face of Aer. Face the mighty Legions of the Empire and their magical creations from dragon cannons to golems as well as the Undead hordes they bring to battle, or fight harpies, lizard people and great dragons on your way. The World The world of Aer is filled with beauty and wonders. From the cold, magic-rich highlands of Fareach, home to the player’s Barbarian Clans, to the Borderlands with their fertile river valleys and deep woods where witches and monsters still roam free; from the Sunken Land, submerged through a great Cataclysm and filled with treacherous swamp and Lizardfolk, to the refined and temperate Empire to the South, home to wondrous cities and built upon undead labour. Your campaign will see you fight across very different battlefields, requiring variable tactics and army composition.",
+      "about_the_game": "Three hundred years have passed since the Shadow Wars have ravaged Keldonia and the world of Aer, and the struggles of the past have long since faded into legends. In the Highlands of Fareach, Clans of Barbarian warriors have eked out a living in the harsh northern climate, constantly feuding with each other and raiding the wealthier Borderland towns. Fed up with these constant attacks, the Borderland Clans called on the Empire for help – a powerful realm controlling the land from the Scarlett Mountains to Cynehelm Valley and the Hoarwood. The Western Imperial Legion was sent to face the highland raiders, and with the help of the Borderland clans Iseal and Machnar, killed High King Brendan in the battle of Wyrm’s Pass. A treaty was signed that forbade any clan from crossing into the Borderlands in return for peace. Since then, there has been no High King to unite the Clans, and they fell into quarrelling and raiding amongst themselves. In these dark times your clan has been led by Falir One-Eye, a warrior of great renown. You are his son and designated heir, and you are eager to prove your mettle to the Clan Council and your father… The Legacy Fantasy General II: Invasion is the reimagination of the strategy game classic from the 90s! Armies once again draw battle-lines on the war-torn land of Keldonia, and a new generation of commanders will test their bravery and tactics against each other. Fantasy wargaming is back! The Battles True to the tradition of the original game, Fantasy General II is all about turn-based battles. Lead over 75 different unique unit types, including powerful heroes. Take into consideration terrain, weapons and armour, magical effects, morale, and the balance of forces, make a plan, execute it, and vanquish your enemy, forging your reputation as a savage war-leader. The Campaign Battle after battle, you will need to make decisions and develop your army. The young clan members will need to be trained, and as they gain enough experience, even the greenest recruits can be turned into champions. But beware: costly victories can be worse than a defeat… when battle-hardened units perish, so does their progression and experience. Each unit comes with their specific abilities, arms and armour, and they can be equipped with magic artefacts you find during battle and upgraded with gold and resources that you need to plunder from your enemy. The Clans A confederation of autonomous hill-land tribes, who value their independence and will fight fiercely for it. Field axemen, berserkers, spearmaidens, trolls and shamans, summon ancestor spirits and mighty elementals or train nimble stag riders and deadly werebears or recruit mercenaries from longbowmen to centaurs. The Empire The most powerful realm on the face of Aer. Face the mighty Legions of the Empire and their magical creations from dragon cannons to golems as well as the Undead hordes they bring to battle, or fight harpies, lizard people and great dragons on your way. The World The world of Aer is filled with beauty and wonders. From the cold, magic-rich highlands of Fareach, home to the player’s Barbarian Clans, to the Borderlands with their fertile river valleys and deep woods where witches and monsters still roam free; from the Sunken Land, submerged through a great Cataclysm and filled with treacherous swamp and Lizardfolk, to the refined and temperate Empire to the South, home to wondrous cities and built upon undead labour. Your campaign will see you fight across very different battlefields, requiring variable tactics and army composition.",
+      "short_description": "The fantasy wargaming classic is back! Lead powerful heroes and mighty armies into battle in this critically acclaimed turn-based strategy milestone. Level up and train your units and guide them through a gripping story campaign to decide the fate of a world on the brink of destruction.",
+      "reviews": "“And this is the very reason why I believe Fantasy General 2: Invasion has not only tremendous staying power, but the potential of a fulfilling future.” 9 – Turn Based Lovers “Graphically, I found the game beautiful, the music even great (the main track has been remastered from the original). The dialogue text and story depth is completely sufficient for me. Even though the balance of the game is not perfect and the level of difficulty is so high that it just cannot be done without reloading and optimizing, I still recommend any lover of turn-based games to buy it. Otherwise, you'll miss one of the most challenging and gripping genre representatives of the year!” 9.0 – Gamersglobal “Like its predecessor, Fantasy General 2 captivates from the first mission and even improves a lot of things from the original: The moral system is more transparent, the missions with their very different goals and many side locations are much more dynamic. I am moved to try everything to prevent my heroes and experienced units from perishingr. Again and again I am faced with risky decisions: Should I follow the fleeing enemy with my decimated troops? Or rather rest at the risk that the refugees will reform themselves? This is how to make a worthy, contemporary successor to a decades-old classic!” 86 – Gamestar ",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/header.jpg?t=1745952562",
+      "website": "http://www.slitherine.com/",
+      "support_url": "http://www.slitherine.com/",
+      "support_email": "support@slitherine.co.uk",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 80,
+      "metacritic_url": "https://www.metacritic.com/game/pc/fantasy-general-ii?ftag=MCD-06-10aaa1f",
+      "achievements": 77,
+      "recommendations": 994,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "German",
+        "Spanish - Spain",
+        "Simplified Chinese",
+        "French",
+        "Russian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy Fantasy General II",
+          "description": "",
+          "subs": [
+            {
+              "text": "Fantasy General II - $39.99 $13.99",
+              "description": "",
+              "price": 13.99
+            },
+            {
+              "text": "Fantasy General II - Hero Edition - $59.99 $29.99",
+              "description": "",
+              "price": 29.99
+            },
+            {
+              "text": "Fantasy General II - General Edition - $79.99 $39.99",
+              "description": "",
+              "price": 39.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Owned by Gravity"
+      ],
+      "publishers": [
+        "Slitherine Ltd."
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Includes level editor",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Strategy"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_57b6e3dd42bf8aac70d314a730025c61bb011145.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_a46e457c1b6b011e6082749d31f359fd0e73908a.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_6a2457f8558f11a85d99d329f331e7036700dcba.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_804d20248bea3fb1d8b01fda877ae911153e5280.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_e77995e8140dd298e794123698a0f1fc600b7a3b.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_c6f1ba65d5b6e35a17b29f0735d3a01f4ac9738d.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_4fbaae12bf8177d067cc0f0841856dd63672d22c.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_0089fed477f0cee44e80853c16d35e2077744ca1.1920x1080.jpg?t=1745952562",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1025440/ss_40b7b0473713dcf7187c3e72ceac6dca0333de80.1920x1080.jpg?t=1745952562"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 1025,
+      "negative": 210,
+      "estimated_owners": "100000 - 200000",
+      "average_playtime_forever": 489,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 52,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 13,
+      "tags": {
+        "Strategy": 120,
+        "Turn-Based Strategy": 86,
+        "Fantasy": 76,
+        "Turn-Based": 70,
+        "Turn-Based Tactics": 70,
+        "Turn-Based Combat": 69,
+        "Tactical": 68,
+        "Singleplayer": 67,
+        "Wargame": 62,
+        "Hex Grid": 57,
+        "Grand Strategy": 52,
+        "Dark Fantasy": 50,
+        "4X": 49,
+        "Multiplayer": 46,
+        "War": 46,
+        "Military": 44,
+        "Replay Value": 44,
+        "Resource Management": 44,
+        "Great Soundtrack": 43,
+        "Management": 41
+      }
+    },
+    "1034400": {
+      "name": "Mystery Solitaire The Black Raven",
+      "release_date": "May 6, 2019",
+      "required_age": 0,
+      "price": 4.99,
+      "dlc_count": 0,
+      "detailed_description": "Immerse yourself in the most beloved, mystical and entrancing world of Edgar Allan Poe's ''The Raven!'' This work reflected the image of the poet himself, his life and mysterious, gloomy and wonderful poetics. Explore 12 locations connected with Poe's life and work, and earn lots of cool trophies. Levels of varying complexity provide several hours of exciting gameplay every day, and special Golden Cards add an extra layer of fun. This game is for people who enjoy card games as spider solitaire, pyramid, hearts, klondike, free cell, crescent, golf, addiction, three peaks, yukon, forty thieves, scorpion, gaps, canfield, crazy quilt, algerian, montana, eight off, calculation, clock solitaire. But regardless of the type, solitaire is an age-old game that never loses its flavor! - Let your emotions run wild! - Solitaire card game – collect chains of cards! - Never a dull moment with super exciting levels! - Vivid graphics and a Pirate soundtrack make this Solitaire a win-win! - Get rid of cards faster with jokers, and increase the combo multiplier to earn more coins! - Earn 15 mystical items! - Original themed decks and 12 card back styles! - Let the fun take over!",
+      "about_the_game": "Immerse yourself in the most beloved, mystical and entrancing world of Edgar Allan Poe's ''The Raven!'' This work reflected the image of the poet himself, his life and mysterious, gloomy and wonderful poetics. Explore 12 locations connected with Poe's life and work, and earn lots of cool trophies. Levels of varying complexity provide several hours of exciting gameplay every day, and special Golden Cards add an extra layer of fun. This game is for people who enjoy card games as spider solitaire, pyramid, hearts, klondike, free cell, crescent, golf, addiction, three peaks, yukon, forty thieves, scorpion, gaps, canfield, crazy quilt, algerian, montana, eight off, calculation, clock solitaire. But regardless of the type, solitaire is an age-old game that never loses its flavor! - Let your emotions run wild! - Solitaire card game – collect chains of cards! - Never a dull moment with super exciting levels! - Vivid graphics and a Pirate soundtrack make this Solitaire a win-win! - Get rid of cards faster with jokers, and increase the combo multiplier to earn more coins! - Earn 15 mystical items! - Original themed decks and 12 card back styles! - Let the fun take over!",
+      "short_description": "Discover an entrancing and spectacular world!",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/header.jpg?t=1687434115",
+      "website": "https://www.facebook.com/8FloorGames/",
+      "support_url": "https://www.facebook.com/8FloorGames",
+      "support_email": "support@8floor.net",
+      "windows": true,
+      "mac": true,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "French",
+        "German",
+        "Russian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy Mystery Solitaire The Black Raven",
+          "description": "",
+          "subs": [
+            {
+              "text": "Mystery Solitaire The Black Raven - $4.99",
+              "description": "",
+              "price": 4.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Somer Games"
+      ],
+      "publishers": [
+        "8floor"
+      ],
+      "categories": [
+        "Single-player",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Casual"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_12d8bb27a16046fe548818dcd0f5d7d0e2038179.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_e809678d186bc47558dba4f421b2535e28b6bb7b.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_87ccbb03192630d7876e315eea690691e906e232.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_36846149295dcf5e7da3f0297ed03e0d2425f619.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_9c5838d0d7db31ce10f63042a1af032507d59129.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_ed7360a46cd443f713dcaa3203165d7354466f5b.1920x1080.jpg?t=1687434115",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1034400/ss_14e08c4ea0076001a9170e0911f4d79e39b1663b.1920x1080.jpg?t=1687434115"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 21,
+      "negative": 3,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": {
+        "Casual": 83,
+        "Card Game": 52,
+        "Solitaire": 47,
+        "Puzzle": 43,
+        "Hidden Object": 40,
+        "2D": 34,
+        "Colorful": 32,
+        "Stylized": 30,
+        "Logic": 28,
+        "Mystery": 26,
+        "Atmospheric": 24,
+        "Family Friendly": 22,
+        "PvE": 20,
+        "Tutorial": 18,
+        "Singleplayer": 16,
+        "Tabletop": 14
+      }
+    },
+    "1108640": {
+      "name": "OMNIMUS",
+      "release_date": "Sep 25, 2019",
+      "required_age": 0,
+      "price": 0.99,
+      "dlc_count": 1,
+      "detailed_description": "Omnimus is an interactive visual novel in an unusual setting (a mix of science fiction and fantasy) that allows players to directly influence the development of its plot. Most states did not survive the third world war. The borders between them were erased, and a unified form of government was established on the planet - corporatocracy, which put power over people in the hands of cold-blooded boards of directors of transnational companies. The bloody war left a heavy mark on the body of mankind, creating millions of useless cripples, one of which is the hero of this visual short story. In the post-war reality, people like him have no future. Nevertheless, he is given a unique chance - to start all over again in the experimental version of virtual reality full immersion. Involuntarily, he becomes a participant in an ambitious experiment. In the beginning, everything is going well, but gradually the events begin to take on a completely unexpected turn. player decisions have consequences two romanceable characters several endings beautiful CG and author's music ",
+      "about_the_game": "Omnimus is an interactive visual novel in an unusual setting (a mix of science fiction and fantasy) that allows players to directly influence the development of its plot. Most states did not survive the third world war. The borders between them were erased, and a unified form of government was established on the planet - corporatocracy, which put power over people in the hands of cold-blooded boards of directors of transnational companies. The bloody war left a heavy mark on the body of mankind, creating millions of useless cripples, one of which is the hero of this visual short story. In the post-war reality, people like him have no future. Nevertheless, he is given a unique chance - to start all over again in the experimental version of virtual reality full immersion. Involuntarily, he becomes a participant in an ambitious experiment. In the beginning, everything is going well, but gradually the events begin to take on a completely unexpected turn. player decisions have consequences two romanceable characters several endings beautiful CG and author's music ",
+      "short_description": "Omnimus. Welcome to the future! A visual novel about a daring experiment.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/header.jpg?t=1754321404",
+      "website": "https://vk.com/badnovells",
+      "support_url": "",
+      "support_email": "letodigest@gmail.com",
+      "windows": true,
+      "mac": true,
+      "linux": true,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "Russian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy OMNIMUS",
+          "description": "",
+          "subs": [
+            {
+              "text": "OMNIMUS - $1.99 $0.99",
+              "description": "",
+              "price": 0.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Angry games"
+      ],
+      "publishers": [
+        "Total"
+      ],
+      "categories": [
+        "Single-player",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Adventure",
+        "Indie"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_bad5213815e94879830abb3dac22b1198de5ff29.1920x1080.jpg?t=1754321404",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_090d0efea0c0a0d3029956b52eb660f3d60bcce2.1920x1080.jpg?t=1754321404",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_de3700f45e6e2c06c73b91eb141957a356aead78.1920x1080.jpg?t=1754321404",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_ba3a345c96f731ce5df22a61b29d431ca09bdb20.1920x1080.jpg?t=1754321404",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_a758dbc998c549f0c3af05fc0ffe5c63845cf6b1.1920x1080.jpg?t=1754321404",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1108640/ss_fba7d1ce612995897d39ae321106b67b3ca25394.1920x1080.jpg?t=1754321404"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 47,
+      "negative": 6,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": {
+        "Adventure": 34,
+        "Indie": 33,
+        "Visual Novel": 13,
+        "Interactive Fiction": 12,
+        "Sci-fi": 11,
+        "Anime": 11,
+        "Singleplayer": 11,
+        "Story Rich": 10,
+        "Replay Value": 10,
+        "Choices Matter": 10,
+        "Multiple Endings": 10
+      }
+    },
+    "1157670": {
+      "name": "Hepta Beats",
+      "release_date": "May 7, 2021",
+      "required_age": 0,
+      "price": 0.99,
+      "dlc_count": 0,
+      "detailed_description": "Hepta Beats is a 2D side-view platformer game in which the levels are controlled by the rhythm, predict adversities by following the rhythm to surpass the challenges. Predict the rhythm of the music to move forward Creative hand-crafted levels Die and try again Features 9 different levels with its own music Rhythm based gameplay Challenging levels Colorfur levels +9 harder levels to come(free DLC) Settings to change the colors (color blind people friendly) ",
+      "about_the_game": "Hepta Beats is a 2D side-view platformer game in which the levels are controlled by the rhythm, predict adversities by following the rhythm to surpass the challenges. Predict the rhythm of the music to move forward Creative hand-crafted levels Die and try again Features 9 different levels with its own music Rhythm based gameplay Challenging levels Colorfur levels +9 harder levels to come(free DLC) Settings to change the colors (color blind people friendly) ",
+      "short_description": "Hepta Beats is a 2D side-view platformer game in which the levels are controlled by the rhythm, predict adversities by following the rhythm to surpass the challenges.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/header.jpg?t=1620416344",
+      "website": "",
+      "support_url": "",
+      "support_email": "heptabeats@gmail.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 9,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish - Spain",
+        "Bulgarian",
+        "Simplified Chinese",
+        "Traditional Chinese",
+        "Korean",
+        "Danish",
+        "Spanish - Latin America",
+        "Finnish",
+        "Greek",
+        "Dutch",
+        "Hungarian",
+        "Japanese",
+        "Norwegian",
+        "Polish",
+        "Portuguese - Portugal",
+        "Portuguese - Brazil",
+        "Romanian",
+        "Russian",
+        "Swedish",
+        "Thai",
+        "Czech",
+        "Turkish",
+        "Ukrainian",
+        "Vietnamese",
+        "Arabic"
+      ],
+      "full_audio_languages": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish - Spain",
+        "Bulgarian",
+        "Simplified Chinese",
+        "Traditional Chinese",
+        "Korean",
+        "Danish",
+        "Spanish - Latin America",
+        "Finnish",
+        "Greek",
+        "Dutch",
+        "Hungarian",
+        "Japanese",
+        "Norwegian",
+        "Polish",
+        "Portuguese - Portugal",
+        "Portuguese - Brazil",
+        "Romanian",
+        "Russian",
+        "Swedish",
+        "Thai",
+        "Czech",
+        "Turkish",
+        "Ukrainian",
+        "Vietnamese",
+        "Arabic"
+      ],
+      "packages": [
+        {
+          "title": "Buy Hepta Beats",
+          "description": "",
+          "subs": [
+            {
+              "text": "Hepta Beats - $0.99",
+              "description": "",
+              "price": 0.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Matheus Bigatão"
+      ],
+      "publishers": [
+        "Matheus Bigatão"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_afeeb1761fe82ecdfa88e20367b962f844c6a3fa.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_0443a21471835b1e4f88b51ab992e3778421ac3e.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_229d56213194ef2f4f8ef0f431410b0caa7d6c5f.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_7a0b27ff0e07994ee4c7ae98e149788f197ba479.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_d463f71345b8d5f6d9215257d3369fce097017ff.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_2c074985cf6d3472658eb2809e04755779757e02.1920x1080.jpg?t=1620416344",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1157670/ss_fe262d332ec9eb80a1a6fe6f11330d73f6a9cabc.1920x1080.jpg?t=1620416344"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 28,
+      "negative": 4,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": {
+        "Precision Platformer": 52,
+        "Rhythm": 45,
+        "Music": 42,
+        "Difficult": 39,
+        "Abstract": 36,
+        "Side Scroller": 30,
+        "Fast-Paced": 26,
+        "Unforgiving": 25,
+        "Casual": 24,
+        "Short": 22,
+        "Minimalist": 19,
+        "Colorful": 19
+      }
+    },
+    "1540330": {
+      "name": "MUMBA IV: Egypt Jewels",
+      "release_date": "Dec 13, 2021",
+      "required_age": 0,
+      "price": 0.59,
+      "dlc_count": 1,
+      "detailed_description": "WARRNING Don't show Your mom this game. You know what can happen... Think twice before clicking 'Read more'. End of message. INFORMATION ABOUT YOUR MISSION So, You clicked... You are a mom or You like the risk. In that case go to Egypt on an amazing adventure and explore all the ancient temples full of diamonds! If you're master (You are master!), you’ll get special bonuses, that'll help you in dangerous temples. There is no time, but Your every move in the temple is limited. The Lord MUMBA is guarding his treasures will you get them all? SCARAB Use the powerful Scarab to change the colors of the jewels and create powerful combinations . Do not be afraid. JOIN NOW Join a group of elite adventures, buy MUMBA IV: Egypt Jewels © now! FEATURES - Over 50 temples with bosses to explore! - No time only You and balls! - 29 languages supported - Fight with bosses guarding the temple - Story - Simple mechanics ! You can play using only the mouse! - Atmospheric ancient music - Secret temples (you need to find artifacts to enter them) - Over 30 hours of fun (all levels, secret temples, bosses, Steam Achievements etc.) *** - Each level is unique and has different difficulties - Support mouse , keyboard or gamepad - Beautiful graphics - Relaxing music and sound effects - Each temple has a goals - Defeat MUMBA and take all Egyptian jewels - 100 Steam Achievements - Steam Cloud - Game was created by a one-man studio and inspired by many puzzles ***[spoiler]My mom tested it, she is a professional gamer (she plays Candy Saga Crash, Bust a Move, The Lines - 100% achievements). 30 hours = all temples , secret temples, bosses, Steam Achievements[/spoiler] ",
+      "about_the_game": "WARRNING Don't show Your mom this game. You know what can happen... Think twice before clicking 'Read more'. End of message. INFORMATION ABOUT YOUR MISSION So, You clicked... You are a mom or You like the risk. In that case go to Egypt on an amazing adventure and explore all the ancient temples full of diamonds! If you're master (You are master!), you’ll get special bonuses, that'll help you in dangerous temples. There is no time, but Your every move in the temple is limited. The Lord MUMBA is guarding his treasures will you get them all? SCARAB Use the powerful Scarab to change the colors of the jewels and create powerful combinations . Do not be afraid. JOIN NOW Join a group of elite adventures, buy MUMBA IV: Egypt Jewels © now! FEATURES - Over 50 temples with bosses to explore! - No time only You and balls! - 29 languages supported - Fight with bosses guarding the temple - Story - Simple mechanics ! You can play using only the mouse! - Atmospheric ancient music - Secret temples (you need to find artifacts to enter them) - Over 30 hours of fun (all levels, secret temples, bosses, Steam Achievements etc.) *** - Each level is unique and has different difficulties - Support mouse , keyboard or gamepad - Beautiful graphics - Relaxing music and sound effects - Each temple has a goals - Defeat MUMBA and take all Egyptian jewels - 100 Steam Achievements - Steam Cloud - Game was created by a one-man studio and inspired by many puzzles ***[spoiler]My mom tested it, she is a professional gamer (she plays Candy Saga Crash, Bust a Move, The Lines - 100% achievements). 30 hours = all temples , secret temples, bosses, Steam Achievements[/spoiler] ",
+      "short_description": "Your task in MUMBA IV is to destroy coloured jewels in a limited number of moves and earn the highest possible number of points. The players of all age groups will definitely like amazing graphics and fun gameplay. MUMBA is watching You. He won't give you the jewels.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/header.jpg?t=1766070604",
+      "website": "http://airem.pl",
+      "support_url": "http://airem.pl",
+      "support_email": "info@airem.pl",
+      "windows": true,
+      "mac": true,
+      "linux": true,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 100,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish - Spain",
+        "Arabic",
+        "Bulgarian",
+        "Traditional Chinese",
+        "Simplified Chinese",
+        "Czech",
+        "Danish",
+        "Finnish",
+        "Greek",
+        "Spanish - Latin America",
+        "Dutch",
+        "Japanese",
+        "Korean",
+        "Norwegian",
+        "Polish",
+        "Portuguese - Portugal",
+        "Portuguese - Brazil",
+        "Russian",
+        "Romanian",
+        "Swedish",
+        "Thai",
+        "Turkish",
+        "Ukrainian",
+        "Vietnamese",
+        "Hungarian",
+        "Belarusian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy MUMBA IV: Egypt Jewels",
+          "description": "",
+          "subs": [
+            {
+              "text": "MUMBA IV: Egypt Jewels - $2.99 $0.59",
+              "description": "",
+              "price": 0.59
+            },
+            {
+              "text": "MUMBA IV: Egypt Jewels - Commercial License - $2.99",
+              "description": "",
+              "price": 2.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Airem"
+      ],
+      "publishers": [
+        "Airem"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Family Sharing",
+        "Steam Timeline"
+      ],
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_1d15abbdc5e40f7689479b43827790391d1bbbb4.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_c6367ea048d1686f25faf5ec2fbe828c7608544d.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_9f1165e17a8141752bbf883328bfa21bf092928c.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_05f7c089064426e47e92627c5f360fe020434df7.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_91ec2f6f84eb7f9182a1400548d805c968dd250b.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_52e9bd7570417febc4c6c39d8afbb23b2396f69c.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_14cb421bcb05cc24aa800a67dfc677451913256f.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_5d1ad81e1caff0a7c320682be6a278ce33dbc74a.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_8dc60bedb1eeb3dcfe9893eff158f152cc29ec71.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_ecf770d71d8c7f9d397823ffe627c188a1305a39.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_6936659f278cc87ea185b3972803dfd4169a994a.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_a83ae6406ec735a514187c549cc5aed56338086f.1920x1080.jpg?t=1766070604",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540330/ss_f75f4aae790f50ba95b5e157d43b1f01daba4619.1920x1080.jpg?t=1766070604"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 19,
+      "negative": 6,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 1,
+      "tags": {
+        "Casual": 64,
+        "Action": 51,
+        "Strategy": 42,
+        "Puzzle": 38,
+        "Match 3": 34,
+        "Singleplayer": 29,
+        "Indie": 21
+      }
+    },
+    "1654170": {
+      "name": "Agony VR",
+      "release_date": "Apr 5, 2023",
+      "required_age": 0,
+      "price": 13.99,
+      "dlc_count": 0,
+      "detailed_description": "ADD TO WISHLIST About the Game A JOURNEY THROUGH HELL! Explore the most terrifying vision of Hell in the history of gaming in new, more immersive edition! With virtual reality, Agony becomes even more brutal and scary. Kill everyone who will stand in your way, and find the Red Goddess, in fully uncensored, Agony. Are you ready for a level of fear, you have never known before? WELCOME TO HELL Agony will put you in the middle of hellish chaos, in which your sacrifice will often be put to the test. With no memories about your past, your main goal will be to stay alive. Be a witness to the brutal scenes of murder and become a judge and an executioner of the condemned souls! Avoid the traps and develop your character's skills to discover the secret of your past and the path to salvation. FACE YOUR FEARS Take on a role of brutal predator, leaving behind a bloody path littered with the limbs of your victims! During your bloody journey, by interacting with imprisoned souls you will get to know, that the only way out of this place requires a meeting with the mystical Red Goddess - architect of this place of sorrow and pain, and the sole entity with knowledge of how to escape. Be aware, her attractiveness and sex appeal will often make you hesitate. The road will be one of the most difficult in your life, full of dark tunnels, strange creatures and bloody sights. RELEASE NOTE The decision not to include the teleport mode in the full version was intentional. This is a dark, stealth game, where the player has to feel the ambiance and make the effort to walk from the start to the end. In the developer's view the teleport would ruin the most valuable feature of the game which is the full immersion in the hellish plot. Do you really think you've seen everything? Enter the brutal world of Agony VR and your sense of fear will never be the same again. ",
+      "about_the_game": "A JOURNEY THROUGH HELL! Explore the most terrifying vision of Hell in the history of gaming in new, more immersive edition! With virtual reality, Agony becomes even more brutal and scary. Kill everyone who will stand in your way, and find the Red Goddess, in fully uncensored, Agony. Are you ready for a level of fear, you have never known before? WELCOME TO HELL Agony will put you in the middle of hellish chaos, in which your sacrifice will often be put to the test. With no memories about your past, your main goal will be to stay alive. Be a witness to the brutal scenes of murder and become a judge and an executioner of the condemned souls! Avoid the traps and develop your character's skills to discover the secret of your past and the path to salvation. FACE YOUR FEARS Take on a role of brutal predator, leaving behind a bloody path littered with the limbs of your victims! During your bloody journey, by interacting with imprisoned souls you will get to know, that the only way out of this place requires a meeting with the mystical Red Goddess - architect of this place of sorrow and pain, and the sole entity with knowledge of how to escape. Be aware, her attractiveness and sex appeal will often make you hesitate. The road will be one of the most difficult in your life, full of dark tunnels, strange creatures and bloody sights. RELEASE NOTE The decision not to include the teleport mode in the full version was intentional. This is a dark, stealth game, where the player has to feel the ambiance and make the effort to walk from the start to the end. In the developer's view the teleport would ruin the most valuable feature of the game which is the full immersion in the hellish plot. Do you really think you've seen everything? Enter the brutal world of Agony VR and your sense of fear will never be the same again. ",
+      "short_description": "Agony VR is a first-person survival horror game. You will take on a role of trapped soul placed in the middle of hellish chaos without any memories about your past. During your journey, you will get to know, that the only way out of this place requires a meeting with the Red Goddess.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/header.jpg?t=1681546360",
+      "website": "",
+      "support_url": "https://www.ignibit.com/",
+      "support_email": "office@ignibit.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "The trailer and the screenshots may contain content not appropriate for all ages: High impact horror themes, Nudity or Sexual Content, Frequent Violence or Gore, General Mature Content. ",
+      "supported_languages": [
+        "English",
+        "French",
+        "Italian",
+        "German",
+        "Spanish - Spain",
+        "Polish",
+        "Portuguese - Portugal",
+        "Russian",
+        "Turkish"
+      ],
+      "full_audio_languages": [
+        "English",
+        "Turkish"
+      ],
+      "packages": [
+        {
+          "title": "Buy Agony VR",
+          "description": "",
+          "subs": [
+            {
+              "text": "Agony VR - $13.99",
+              "description": "",
+              "price": 13.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Ignibit"
+      ],
+      "publishers": [
+        "Ignibit",
+        "Madmind Studio"
+      ],
+      "categories": [
+        "Single-player",
+        "Tracked Controller Support",
+        "VR Only",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/ss_2e51840454f318d83c3838ec9b4d74fa3b032fa0.1920x1080.jpg?t=1681546360",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/ss_ca0d0c986e65dbb6b2f8ef943c83a72cbf00be1d.1920x1080.jpg?t=1681546360",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/ss_3896dfed29b8fa56376c329f7d08ceba905cc26b.1920x1080.jpg?t=1681546360",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/ss_9b2755e0c0bf5ba91570caa87aedd7a2c957a4cd.1920x1080.jpg?t=1681546360",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1654170/ss_8c0ee93ad3f614017547cd3e74fdd6b4cf80b28c.1920x1080.jpg?t=1681546360"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": []
+    },
+    "1934300": {
+      "name": "Armored Brigade II",
+      "release_date": "Apr 8, 2025",
+      "required_age": 0,
+      "price": 35.99,
+      "dlc_count": 1,
+      "detailed_description": "Building on the success of its acclaimed predecessor, Armored Brigade II elevates the wargaming experience by skillfully blending accessibility with tactical depthall within a new, more immersive 3D graphic landscape . This finely-tuned balance makes it an ideal choice for both newcomers and veterans of military wargames. Engage in a simulator that offers both pausable real-time and turn-based gameplay, where every decision counts. Authentic, detailed gameplay captivates players of all levels, immersing them in a world where strategy and realism converge. At the heart of the game are the command and control dynamics . Orders and information take time to be received and executed, influenced by factors such as training, doctrine, distance from HQ, and communication within formations. This system creates tense moments, especially when waiting for orders during critical situations. Players have the flexibility to issue orders to formations using a mix of general commands and specific Standard Operating Procedures. Engage in combat under a variety of weather and lighting conditions , each realistically affecting combat capabilities and tactics. A New Scale to Warfare Players can select from several vast real-world terrain maps , set across various locations in Europe. The immense scale of these maps not only enables high levels of replayability and customization but also facilitates authentic maneuver warfare, accommodating anything from a single platoon to several battalions simultaneously. This aspect of the game is further enriched by a robust skirmish generation system , allowing players to simulate a wide range of battle types across different seasons and settings, adding layers of depth and versatility to the gameplay experience. Engage in combat under a variety of weather and lighting conditions, each realistically affecting combat capabilities and strategies. Armored Brigade II excels with its vast assortment of over 1000 meticulously researched ground and air units , encompassing virtually every type in service. They are modeled to the finest detail, encompassing features such as turret traverse speed, guidance methods, and more. This thorough attention to detail ensures that each unit offers its real-life capabilities to the fullest extent, including accurate representations of engagement distances. These units can be used in single skirmishes or dynamic multi-battle operations across the master maps. The game also offers more traditional linear campaigns . Combat in Armored Brigade II is an all-encompassing contest of smarts, tactics, and mastery of your units, providing an enriching experience for both military enthusiasts and strategy gamers. Features: Comprehensive Command, Control, and Communications (C3) : Advanced mechanisms for information sharing and tactical decision-making. Huge Unit Database : Play as seven different countries with full rosters of vehicles and weapons from 1965-1991. Massive Real-World Terrain Maps : Expansive, detailed maps based on satellite topographic data and historical maps, offering vast landscapes for maneuvers and realistic engagement distances. Dynamic Weather System : A wide range of lighting and environmental effects that realistically impact gameplay and tactics. Improved Fire Support : Improved support mechanics, offering more depth in utilizing various assets such as air, artillery, and helicopters. Infantry Rework : Redesigned infantry mechanics for a more authentic and engaging ground combat experience. Campaigns : A mix of both dynamic and linear campaigns, allowing for varied and immersive storytelling within the game. ",
+      "about_the_game": "Building on the success of its acclaimed predecessor, Armored Brigade II elevates the wargaming experience by skillfully blending accessibility with tactical depthall within a new, more immersive 3D graphic landscape . This finely-tuned balance makes it an ideal choice for both newcomers and veterans of military wargames. Engage in a simulator that offers both pausable real-time and turn-based gameplay, where every decision counts. Authentic, detailed gameplay captivates players of all levels, immersing them in a world where strategy and realism converge. At the heart of the game are the command and control dynamics . Orders and information take time to be received and executed, influenced by factors such as training, doctrine, distance from HQ, and communication within formations. This system creates tense moments, especially when waiting for orders during critical situations. Players have the flexibility to issue orders to formations using a mix of general commands and specific Standard Operating Procedures. Engage in combat under a variety of weather and lighting conditions , each realistically affecting combat capabilities and tactics. A New Scale to Warfare Players can select from several vast real-world terrain maps , set across various locations in Europe. The immense scale of these maps not only enables high levels of replayability and customization but also facilitates authentic maneuver warfare, accommodating anything from a single platoon to several battalions simultaneously. This aspect of the game is further enriched by a robust skirmish generation system , allowing players to simulate a wide range of battle types across different seasons and settings, adding layers of depth and versatility to the gameplay experience. Engage in combat under a variety of weather and lighting conditions, each realistically affecting combat capabilities and strategies. Armored Brigade II excels with its vast assortment of over 1000 meticulously researched ground and air units , encompassing virtually every type in service. They are modeled to the finest detail, encompassing features such as turret traverse speed, guidance methods, and more. This thorough attention to detail ensures that each unit offers its real-life capabilities to the fullest extent, including accurate representations of engagement distances. These units can be used in single skirmishes or dynamic multi-battle operations across the master maps. The game also offers more traditional linear campaigns . Combat in Armored Brigade II is an all-encompassing contest of smarts, tactics, and mastery of your units, providing an enriching experience for both military enthusiasts and strategy gamers. Features: Comprehensive Command, Control, and Communications (C3) : Advanced mechanisms for information sharing and tactical decision-making. Huge Unit Database : Play as seven different countries with full rosters of vehicles and weapons from 1965-1991. Massive Real-World Terrain Maps : Expansive, detailed maps based on satellite topographic data and historical maps, offering vast landscapes for maneuvers and realistic engagement distances. Dynamic Weather System : A wide range of lighting and environmental effects that realistically impact gameplay and tactics. Improved Fire Support : Improved support mechanics, offering more depth in utilizing various assets such as air, artillery, and helicopters. Infantry Rework : Redesigned infantry mechanics for a more authentic and engaging ground combat experience. Campaigns : A mix of both dynamic and linear campaigns, allowing for varied and immersive storytelling within the game. ",
+      "short_description": "Armored Brigade II revolutionizes real-time tactical warfare in 3D, focusing on the intense combined arms combat of the Cold War era, from 1965 to 1991. Boasting a meticulously researched database and huge real-world terrain maps, this game offers an unparalleled combat simulation experience.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/header.jpg?t=1758720574",
+      "website": "",
+      "support_url": "",
+      "support_email": "support@slitherine.co.uk",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 107,
+      "notes": "",
+      "supported_languages": [
+        "English"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy Armored Brigade II",
+          "description": "",
+          "subs": [
+            {
+              "text": "Armored Brigade 2 - $39.99 $35.99",
+              "description": "",
+              "price": 35.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Veitikka Studios"
+      ],
+      "publishers": [
+        "Matrix Games"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Simulation",
+        "Strategy"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/3cb500c61cb7557706de99a73b084354dd26dc9f/ss_3cb500c61cb7557706de99a73b084354dd26dc9f.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/3593c4987d93e37e866e2aefaba6c6010508eb75/ss_3593c4987d93e37e866e2aefaba6c6010508eb75.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/0ad3e5c617c7cc1f49d918d9da94ad37fd207dc2/ss_0ad3e5c617c7cc1f49d918d9da94ad37fd207dc2.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/64d2bc0d6fe7667870245894c474b5352628c7bc/ss_64d2bc0d6fe7667870245894c474b5352628c7bc.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/abe3ff3f35e8a7e3b7547afd24753a5898bc6b17/ss_abe3ff3f35e8a7e3b7547afd24753a5898bc6b17.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/349ac8b192cbbbcc4a831b684338e0b068bacd45/ss_349ac8b192cbbbcc4a831b684338e0b068bacd45.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/49f5f48ba00612a5c0446c02bfd5214c61909e67/ss_49f5f48ba00612a5c0446c02bfd5214c61909e67.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/e885aa77e145d9d895620e4312afe483592ac2ff/ss_e885aa77e145d9d895620e4312afe483592ac2ff.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/773de296a706355ee6ed44c42b136faaf5b1e542/ss_773de296a706355ee6ed44c42b136faaf5b1e542.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/5af63eb411e322b0f3bdc3d8a205f696cce63153/ss_5af63eb411e322b0f3bdc3d8a205f696cce63153.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/1538298846934c94108e7a71c894b8c4ff87077b/ss_1538298846934c94108e7a71c894b8c4ff87077b.1920x1080.jpg?t=1758720574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1934300/80c41da309579b0fca44c0da03dcc2f7cf9de769/ss_80c41da309579b0fca44c0da03dcc2f7cf9de769.1920x1080.jpg?t=1758720574"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 117,
+      "negative": 13,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 675,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 1253,
+      "median_playtime_2weeks": 0,
+      "discount": "10",
+      "peak_ccu": 8,
+      "tags": {
+        "Simulation": 193,
+        "Strategy": 186,
+        "RTS": 163,
+        "Wargame": 154,
+        "Grand Strategy": 147,
+        "Action RTS": 137,
+        "3D": 127,
+        "2D": 123,
+        "Realistic": 119,
+        "Tanks": 110,
+        "War": 106,
+        "Cold War": 97,
+        "Military": 82,
+        "Vehicular Combat": 68,
+        "Level Editor": 52,
+        "Singleplayer": 37,
+        "PvE": 29,
+        "Real Time Tactics": 15
+      }
+    },
+    "1946890": {
+      "name": "Codename: Warlock Playtest",
+      "release_date": "Mar 25, 2022",
+      "required_age": 0,
+      "price": 0,
+      "dlc_count": 0,
+      "detailed_description": "",
+      "about_the_game": "",
+      "short_description": "",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946890/header.jpg?t=1648237249",
+      "website": "",
+      "support_url": "",
+      "support_email": "",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [],
+      "full_audio_languages": [],
+      "packages": [],
+      "developers": [],
+      "publishers": [],
+      "categories": [],
+      "genres": [],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946890/ss_a0669ea03216d5373cea226592655b9deb79435f.1920x1080.jpg?t=1648237249",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946890/ss_d57e22532003b9745b2225e05121c41b1e2450e1.1920x1080.jpg?t=1648237249",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1946890/ss_9c1feaae0c62f3e3e30de8636a6281b73b394b56.1920x1080.jpg?t=1648237249"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 0",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": 0,
+      "peak_ccu": 0,
+      "tags": []
+    },
+    "2113450": {
+      "name": "Forests, Fields and Fortresses",
+      "release_date": "Apr 5, 2023",
+      "required_age": 0,
+      "price": 1.49,
+      "dlc_count": 0,
+      "detailed_description": "Forests, Fields and Fortresses is a mix of a puzzle and a board game in which you have to build your kingdom. Try on the role of a ruler, piece together your lands and ensure the prosperity of your people. Two game modes will be available to you, each with its own unique gameplay: Puzzle Mode . Manually created levels with a small number of pieces of territory. Your goal is to place them in such a way as to earn the required amount of Gold. Adventure Mode . Start the game with a randomly created field and an endless supply of pieces of territory. Earn enough Gold before the playing field is full to successfully complete the game season and move on to the next one. Unlock new Spells, Game Events and Starting Locality Types to diversify your playthroughs. ",
+      "about_the_game": "Forests, Fields and Fortresses is a mix of a puzzle and a board game in which you have to build your kingdom. Try on the role of a ruler, piece together your lands and ensure the prosperity of your people. Two game modes will be available to you, each with its own unique gameplay: Puzzle Mode . Manually created levels with a small number of pieces of territory. Your goal is to place them in such a way as to earn the required amount of Gold. Adventure Mode . Start the game with a randomly created field and an endless supply of pieces of territory. Earn enough Gold before the playing field is full to successfully complete the game season and move on to the next one. Unlock new Spells, Game Events and Starting Locality Types to diversify your playthroughs. ",
+      "short_description": "Forests, Fields and Fortresses - is a mix of a puzzle and a board game in which you have to build your kingdom.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/header.jpg?t=1680682574",
+      "website": "http://9eyesgs.com/",
+      "support_url": "http://9eyesgs.com/",
+      "support_email": "support@9eyesgs.com",
+      "windows": true,
+      "mac": true,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 13,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English",
+        "Russian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy Forests, Fields and Fortresses",
+          "description": "",
+          "subs": [
+            {
+              "text": "Forests, Fields and Fortresses - $4.99 $1.49",
+              "description": "",
+              "price": 1.49
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "9 Eyes Game Studio"
+      ],
+      "publishers": [
+        "9 Eyes Game Studio",
+        "Stately Snail"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Casual",
+        "Indie"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_1db38fcce58997162c5ca0c678c9f9b99ccd20f3.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_713ab72c7e0f69a6c0941dbfe6f2df6506d9a8ae.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_6a5f866ad00e15c3bfeafd5d254f7818b51fa588.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_45f5c0c201b5e59a48a80eef3444126c4e538971.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_aab2c0e160be0cc56a87b41a3c9707fecdf1f6ea.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_31a4739744ce21bb31347f321b3508c08e2c92cd.1920x1080.jpg?t=1680682574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2113450/ss_3388192073b52303631e905601ac4a66a9984192.1920x1080.jpg?t=1680682574"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 64,
+      "negative": 2,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "70",
+      "peak_ccu": 0,
+      "tags": {
+        "Casual": 73,
+        "Strategy": 48,
+        "Puzzle": 46,
+        "City Builder": 40,
+        "Tabletop": 39,
+        "Board Game": 31,
+        "God Game": 29,
+        "Solitaire": 28,
+        "Top-Down": 27,
+        "Pixel Graphics": 26,
+        "Medieval": 22,
+        "Indie": 21,
+        "Fantasy": 20,
+        "Economy": 18,
+        "Controller": 16,
+        "Procedural Generation": 14,
+        "Singleplayer": 13
+      }
+    },
+    "2539430": {
+      "name": "Black Dragon Mage Playtest",
+      "release_date": "Aug 1, 2023",
+      "required_age": 0,
+      "price": 0,
+      "dlc_count": 0,
+      "detailed_description": "",
+      "about_the_game": "",
+      "short_description": "",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539430/header.jpg?t=1699268702",
+      "website": "",
+      "support_url": "",
+      "support_email": "",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [],
+      "full_audio_languages": [],
+      "packages": [],
+      "developers": [],
+      "publishers": [],
+      "categories": [],
+      "genres": [],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539430/ss_7d9504b958d0b143d053d31cb74b375daba338d6.1920x1080.jpg?t=1699268702",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2539430/ss_85d2749d23e115b4d44e8ed1024c55a6be524fde.1920x1080.jpg?t=1699268702"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 0",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": 0,
+      "peak_ccu": 0,
+      "tags": []
+    },
+    "2922740": {
+      "name": "DogDogDog",
+      "release_date": "Apr 19, 2024",
+      "required_age": 0,
+      "price": 1.35,
+      "dlc_count": 0,
+      "detailed_description": "'DogDogDog' is a horror adventure game set in modern times. ◆ Story Recently, you have been feeling like someone is stalking you. Every day, you feel anxious, sensing eyes and hearing noises all around you. Suddenly, you remember the pet dog you used to have. And then, you encounter a 'DOG'... Yet life goes on. ◆ Game Features - A walking simulator where various events occur as you walk. - Progress the story by examining objects. - There are no quest markers or time limits, allowing for relaxed gameplay. - Experience occasional terror from the appearance of dogs. Playtime: 10 to 30 minutes ◆ Streaming Guidelines - Streaming is possible without permission for individuals and companies alike.",
+      "about_the_game": "'DogDogDog' is a horror adventure game set in modern times. ◆ Story Recently, you have been feeling like someone is stalking you. Every day, you feel anxious, sensing eyes and hearing noises all around you. Suddenly, you remember the pet dog you used to have. And then, you encounter a 'DOG'... Yet life goes on. ◆ Game Features - A walking simulator where various events occur as you walk. - Progress the story by examining objects. - There are no quest markers or time limits, allowing for relaxed gameplay. - Experience occasional terror from the appearance of dogs. Playtime: 10 to 30 minutes ◆ Streaming Guidelines - Streaming is possible without permission for individuals and companies alike.",
+      "short_description": "'DogDogDog' is a horror adventure game set in modern times. Recently, you have been feeling like someone is stalking you, making you anxious with the feeling of being watched and hearing noises everywhere. Suddenly, you recall your past pet dog, only to encounter a 'DOG' in the present.",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/header.jpg?t=1761522090",
+      "website": "",
+      "support_url": "",
+      "support_email": "nowar1112@hotmail.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 5,
+      "recommendations": 0,
+      "notes": "gore,blood",
+      "supported_languages": [
+        "English",
+        "Simplified Chinese",
+        "Japanese",
+        "Russian"
+      ],
+      "full_audio_languages": [],
+      "packages": [
+        {
+          "title": "Buy DogDogDog",
+          "description": "",
+          "subs": [
+            {
+              "text": "DogDogDog - $3.99 $1.35",
+              "description": "",
+              "price": 1.35
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "LuuuLuuuL"
+      ],
+      "publishers": [
+        "LuuuLuuuL"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Remote Play Together",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_55c6ee94f866ede187820d8c4845e1f97c74d22b.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_82ecb6b016fc3e5e4943ac0b0a73a1efb7fadf72.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_7a6190bdc7288484a0d961d4971a95d62f4612ab.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_8ec3b02fb2887ee6171f2d67f4a7a912f5a38180.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_a08d87c5148a2b7d81ce83d86055e23c450b9d2d.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_1311753ffddf4c927dbb47f303ceb5de9b7e2a93.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_fdd373455e7a619629757fb67a1798b56a662398.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_53f9bb7592a88191cd68625fa822d2070586fc7a.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_7c5e42a9f87104d12ff083ed287a8d4edd03e0f2.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_1e3c8952a1ac5a11248bf2fd4db9d84aa8069326.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_b5cb659aa0c22c7bac8e3282fffbd8530570ce46.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_6aea9e53d3437b2e639042f017078c350ab39ab9.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_6b78bff9108bb4654c3770eb489e3c8d2e7024ea.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_bf72b787f31217e89295d723bb57d5c8c6c4be9a.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_5d0664fc886641e11a12bfe427d86719cee382a0.1920x1080.jpg?t=1761522090",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2922740/ss_d980d4115ac8209cd2ff099a6dd4187773908d93.1920x1080.jpg?t=1761522090"
+      ]
+    },
+    "3292190": {
+      "name": "버튜버 파라노이아 - Vtuber Paranoia",
+      "release_date": "Oct 31, 2024",
+      "required_age": 0,
+      "price": 8.99,
+      "dlc_count": 1,
+      "detailed_description": "synopsis 'Hello, I'm Hiyoro, a new YouTuber!' It's been three years since I've repeated such greetings. Hiyoro, who couldn't avoid Hakko's broadcast, fell into a lot of skepticism, self-destruction, and debt. Now, the broadcast that I turned on with the idea of the last broadcast, with an unknown algorithm, got a lot of response, and it ended up in a mess- Hiyoru, who suddenly received everyone's attention, became a popular YouTuber... Survive the controversy, red pills, and video donne! The survival of new YouTuber Hiyoru, 'Berber YouTuber Paranoia' is starting now! the number of people produced Produced by Eugene Games Illustration: Dotsang Spine Design: Weed Protection Logo Design: Garvey Sub Illustration: Rimi Hiyoru/Hayuri: Voice of Serena Kuro: Voice actor Yoo Hye-sun Recording: Plus diction Game specs Genre: Miyeon City, Visual Novell, Fostering, Strategy Estimated play time: 7 hours~ Configuration 2 Spine Characters 8 CG illustrations 3 Character Voice Application 19 ending songs How to play it The user can run the broadcast for a total of 30 days. It will host the show and answer your questions. In this case, the story will follow your answers. At the end of the broadcast, you earn profits proportional to the viewers and Donations. You can use the proceeds you earn to purchase your character's items. You can unlock new stories by purchasing items. You can check the ending before the 30th, or if you complete the 30th. Various endings can be viewed according to the user's selection. How to operate Mouse Click: Line Progress Ctrl: Skip the line Enter : Line Progress Esc : End of game, skip video ※ This work contains some shocking scenes or horror-inducing content. ※ 250317 Update Build optimization (reduced loading time on first-time game execution) Optimized in-game sound (voice, BGM, SFX) ",
+      "about_the_game": "synopsis 'Hello, I'm Hiyoro, a new YouTuber!' It's been three years since I've repeated such greetings. Hiyoro, who couldn't avoid Hakko's broadcast, fell into a lot of skepticism, self-destruction, and debt. Now, the broadcast that I turned on with the idea of the last broadcast, with an unknown algorithm, got a lot of response, and it ended up in a mess- Hiyoru, who suddenly received everyone's attention, became a popular YouTuber... Survive the controversy, red pills, and video donne! The survival of new YouTuber Hiyoru, 'Berber YouTuber Paranoia' is starting now! the number of people produced Produced by Eugene Games Illustration: Dotsang Spine Design: Weed Protection Logo Design: Garvey Sub Illustration: Rimi Hiyoru/Hayuri: Voice of Serena Kuro: Voice actor Yoo Hye-sun Recording: Plus diction Game specs Genre: Miyeon City, Visual Novell, Fostering, Strategy Estimated play time: 7 hours~ Configuration 2 Spine Characters 8 CG illustrations 3 Character Voice Application 19 ending songs How to play it The user can run the broadcast for a total of 30 days. It will host the show and answer your questions. In this case, the story will follow your answers. At the end of the broadcast, you earn profits proportional to the viewers and Donations. You can use the proceeds you earn to purchase your character's items. You can unlock new stories by purchasing items. You can check the ending before the 30th, or if you complete the 30th. Various endings can be viewed according to the user's selection. How to operate Mouse Click: Line Progress Ctrl: Skip the line Enter : Line Progress Esc : End of game, skip video ※ This work contains some shocking scenes or horror-inducing content. ※ 250317 Update Build optimization (reduced loading time on first-time game execution) Optimized in-game sound (voice, BGM, SFX) ",
+      "short_description": "Yuha! I'll start the broadcast! Hakko's extreme survival time",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/header.jpg?t=1742217574",
+      "website": "",
+      "support_url": "",
+      "support_email": "yujingamesc@gmail.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 19,
+      "recommendations": 0,
+      "notes": "The game includes the following elements. 1. General Mature Content : Revealing outfits; sexual stimulation; sexual innuendo; sex-related language; 2. Violence Content : suggestive of murder; suggestive of suicidal behavior; inappropriate violent swearing; violent behavior; suggestive of impulsive violence; depiction of the murder scene;",
+      "supported_languages": [
+        "Korean"
+      ],
+      "full_audio_languages": [
+        "Korean"
+      ],
+      "packages": [
+        {
+          "title": "Buy 버튜버 파라노이아 - Vtuber Paranoia",
+          "description": "",
+          "subs": [
+            {
+              "text": "버튜버 파라노이아 - Vtuber Paranoia - $14.99 $8.99",
+              "description": "",
+              "price": 8.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "유진게임즈"
+      ],
+      "publishers": [
+        "유진게임즈"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_87f071dbf846e7832ff49d68b0d7a8b6509bcda6.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_b06de7c2dc64df5f902afd99d4597160e4cafa74.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_62ccffe85aba180968351f956a29ddd3755142dd.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_344b2862e0b796d4f8dd35a1adcf26b4a297e100.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_403b782eea8df4e49776e76adf036d4f23d29ffc.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_9d6d55599bb73b91b649117962071be4314ccb6e.1920x1080.jpg?t=1742217574",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3292190/ss_7bc6f1e34aa3916b0c3a9c1ed81ec35e7d9315d9.1920x1080.jpg?t=1742217574"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 1,
+      "tags": []
+    },
+    "3631080": {
+      "name": "Maze Quest VR",
+      "release_date": "Apr 24, 2025",
+      "required_age": 0,
+      "price": 4.99,
+      "dlc_count": 0,
+      "detailed_description": "Its not just a Maze; its a Quest! Enter the captivating realm of Maze Quest, where each unexpected turn presents fresh challenges, hidden treasures, and unexpected surprises! Your journey begins with L1: Training Day, a quick and exciting intro to get you geared up and familiar with the mechanics of this thrilling VR experience. Navigate through intricate mazes, collecting objects and dodging obstacles, all while racing against the clock. Keep your eyes sharp. 24 levels to complete!!! Hidden ammo and hourglass objects can give you extra time and ammunition, but you'll need precision to shoot them and claim the rewards. Your primary objective is to reach the portal gate before the time expires. The portal will instantly end the level, propelling you to greater challenges. Stay fully engaged with intuitive VR controls: The Right Controller: Your score and photon count, so you’re always in the know. The Left Controller keeps you focused with the time remaining, ensuring you don't lose track of your race against the clock. Each maze is uniquely designed to test your reflexes, puzzle-solving skills, and navigation prowess. Can you conquer the labyrinth and unlock its hidden secrets? With increasing complexity and dynamic challenges, Maze Quest delivers a high-energy VR adventure. Dare to take on the maze? The time is running out. Enter Maze Quest and prove your skills in the ultimate VR maze experience! Skyboxes by Blockade Labs Music by John Campanella and others ",
+      "about_the_game": "Its not just a Maze; its a Quest! Enter the captivating realm of Maze Quest, where each unexpected turn presents fresh challenges, hidden treasures, and unexpected surprises! Your journey begins with L1: Training Day, a quick and exciting intro to get you geared up and familiar with the mechanics of this thrilling VR experience. Navigate through intricate mazes, collecting objects and dodging obstacles, all while racing against the clock. Keep your eyes sharp. 24 levels to complete!!! Hidden ammo and hourglass objects can give you extra time and ammunition, but you'll need precision to shoot them and claim the rewards. Your primary objective is to reach the portal gate before the time expires. The portal will instantly end the level, propelling you to greater challenges. Stay fully engaged with intuitive VR controls: The Right Controller: Your score and photon count, so you’re always in the know. The Left Controller keeps you focused with the time remaining, ensuring you don't lose track of your race against the clock. Each maze is uniquely designed to test your reflexes, puzzle-solving skills, and navigation prowess. Can you conquer the labyrinth and unlock its hidden secrets? With increasing complexity and dynamic challenges, Maze Quest delivers a high-energy VR adventure. Dare to take on the maze? The time is running out. Enter Maze Quest and prove your skills in the ultimate VR maze experience! Skyboxes by Blockade Labs Music by John Campanella and others ",
+      "short_description": "Its not just a Maze; its a Quest! Enter the captivating realm of Maze Quest, where each unexpected turn presents fresh challenges, hidden treasures, and unexpected surprises! Navigate through intricate mazes, collecting objects and dodging obstacles, all while racing against the clock. 24 Levels!",
+      "reviews": "",
+      "header_image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/2a78ae30e350862e415889f097e422855eca25b9/header.jpg?t=1746637727",
+      "website": "https://www.realityexpanded.com/books-games",
+      "support_url": "https://www.realityexpanded.com",
+      "support_email": "support@realityexpanded.com",
+      "windows": true,
+      "mac": false,
+      "linux": false,
+      "metacritic_score": 0,
+      "metacritic_url": "",
+      "achievements": 0,
+      "recommendations": 0,
+      "notes": "",
+      "supported_languages": [
+        "English"
+      ],
+      "full_audio_languages": [
+        "English"
+      ],
+      "packages": [
+        {
+          "title": "Buy Maze Quest VR",
+          "description": "",
+          "subs": [
+            {
+              "text": "Maze Quest VR - $4.99",
+              "description": "",
+              "price": 4.99
+            }
+          ]
+        }
+      ],
+      "developers": [
+        "Reality Expanded LLC"
+      ],
+      "publishers": [
+        "Reality Expanded LLC"
+      ],
+      "categories": [
+        "Single-player",
+        "VR Only",
+        "Steam Leaderboards",
+        "Family Sharing"
+      ],
+      "genres": [
+        "Action",
+        "Early Access"
+      ],
+      "screenshots": [
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/3c3874df57f1a1a1f544e81ee21581f8b52140b5/ss_3c3874df57f1a1a1f544e81ee21581f8b52140b5.1920x1080.jpg?t=1746637727",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/91c2337931ff18946abef274e7f50403aaf6867a/ss_91c2337931ff18946abef274e7f50403aaf6867a.1920x1080.jpg?t=1746637727",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/d1c42fd33f3e017dddda432864e4f650488520d8/ss_d1c42fd33f3e017dddda432864e4f650488520d8.1920x1080.jpg?t=1746637727",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/cb0f1a5e54cce8333b89d9540a3a12f98430b54f/ss_cb0f1a5e54cce8333b89d9540a3a12f98430b54f.1920x1080.jpg?t=1746637727",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/5686c1d26e3bd45c1cc00be8964da9609b0b061b/ss_5686c1d26e3bd45c1cc00be8964da9609b0b061b.1920x1080.jpg?t=1746637727",
+        "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3631080/0f94522cb4582a7a8c05a9fdf4f72e712baf6a8e/ss_0f94522cb4582a7a8c05a9fdf4f72e712baf6a8e.1920x1080.jpg?t=1746637727"
+      ],
+      "movies": [],
+      "user_score": 0,
+      "score_rank": "",
+      "positive": 0,
+      "negative": 0,
+      "estimated_owners": "0 - 20000",
+      "average_playtime_forever": 0,
+      "average_playtime_2weeks": 0,
+      "median_playtime_forever": 0,
+      "median_playtime_2weeks": 0,
+      "discount": "0",
+      "peak_ccu": 0,
+      "tags": []
+    }
+  }
+}
