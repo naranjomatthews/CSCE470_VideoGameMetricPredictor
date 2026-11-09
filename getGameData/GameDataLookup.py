@@ -1,62 +1,70 @@
 import json
 
-# features to retrieve from the preprocessedJSON.
-GAME_FIELDS = [
-    "title",
-    "description",
-    "tags",
-    "genres",
-    "rating",
-    "positive",
-    "negative",
-    "recommendations",
-    "downloads"
-]
+class GameData:
+
+    # features to retrieve from the preprocessedJSON.
+    GAME_FIELDS = [
+        "title",
+        "description",
+        "tags",
+        "genres",
+        "rating",
+        "positive",
+        "negative",
+        "recommendations",
+        "downloads"
+    ]
+
+    def __init__(self, filePath):
+        with open(filePath, "r", encoding="utf-8") as file:
+            self.gameData = json.load(file)
 
 
-def loadGameData(filePath):
-    with open(filePath, "r", encoding="utf-8") as file:
+    def loadGameData(self, filePath):
+        with open(filePath, "r", encoding="utf-8") as file:
 
-        # convert JSON data into a dictionary using appid as keys
-        gameData = json.load(file)
+            # convert JSON data into a dictionary using appid as keys
+            gameData = json.load(file)
 
-    return gameData
+        return gameData
 
 
-def getGameData(docIDs, gameData):
-    results = []
+    def getGameData(self, docIDs):
+        results = []
 
-    for docID in docIDs:
-        docID = str(docID)
-        if docID not in gameData:
-            continue
+        for docID in docIDs:
+            docID = str(docID)
+            if docID not in self.gameData:
+                continue
 
-        # retrieve game information using given ID.
-        game = gameData[docID]
+            # retrieve game information using given ID.
+            game = self.gameData[docID]
 
-        # create a dictionary for the current game's information.
-        selectedGame = {"docID": docID}
+            # create a dictionary for the current game's information.
+            selectedGame = {"docID": docID}
 
-        # retrieve the features of the current game and add them to the selectedGame dictionary.
-        for field in GAME_FIELDS:
-            selectedGame[field] = game.get(field)
+            # retrieve the features of the current game and add them to the selectedGame dictionary.
+            for field in self.GAME_FIELDS:
+                selectedGame[field] = game.get(field)
 
-        # add the current game to the results list
-        results.append(selectedGame)
+            # add the current game to the results list
+            results.append(selectedGame)
 
-    return results
+        return results
 
 
 # test code
 if __name__ == "__main__":
 
-    # load game data from preprocessed JSON
-    gameData = loadGameData("game_data.json")
+    pass 
 
-    docIDs = ["688420", "496350", "1025440"]
+    # # load game data from preprocessed JSON
+    # gameData = loadGameData("game_data.json")
 
-    # retrieve features of the given games using their ids and JSON data
-    results = getGameData(docIDs, gameData)
+    # docIDs = ["688420", "496350", "1025440"]
 
-    for game in results:
-        print(game)
+    # # retrieve features of the given games using their ids and JSON data
+    # results = getGameData(docIDs, gameData)
+
+    # for game in results:
+    #     print(game)
