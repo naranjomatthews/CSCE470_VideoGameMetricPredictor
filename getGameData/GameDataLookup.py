@@ -1,4 +1,4 @@
-import json
+import json, re
 
 class GameData:
 
@@ -47,9 +47,33 @@ class GameData:
             # create a dictionary for the current game's information.
             selectedGame = {"docID": docID}
 
-            # retrieve the features of the current game and add them to the selectedGame dictionary.
-            for field in self.GAME_FIELDS:
-                selectedGame[field] = game.get(field)
+            tags = game.get("tags", [])
+            if isinstance(tags, dict):
+                tags = list(tags.keys())
+
+            # retrieve review counts
+            positive = int(game.get("positive") or 0)
+            negative = int(game.get("negative") or 0)
+            votes = positive + negative
+
+            #retrieve number of estimated owners
+            owner_numbers = re.findall(r"\d+", str(game.get("estimated_owners", "")).replace(",", ""))
+
+            #retrieve download estimates
+            downloads = (sum(int(n) for n in owner_numbers) if owner_numbers else 0)
+
+            # store the relevant game info in the dict
+            selectedGame.update({
+                "title": game.get("name", ""),
+                "description": game.get("about_the_game", "") or game.get("short_description", ""),
+                "tags": tags,
+                "genres": game.get("genres", []),
+                "rating": round(positive / votes, 4) if votes else 0.0,
+                "positive": positive,
+                "negative": negative,
+                "recommendations": int(game.get("recommendations") or 0),
+                "downloads": downloads
+            })
 
             # add the current game to the results list
             results.append(selectedGame)
