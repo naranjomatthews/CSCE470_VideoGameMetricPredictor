@@ -23,7 +23,7 @@ Test data and its preprocessed indexes have already been provided. To test the r
 
 ```py -m ranking.bm25ranker```
 
-Once ran, the user will be prompted for query. Once query is provided, successful execution records resulting rankings in search_results.json under the test_data directory.
+Once ran, the user will be prompted for query in the terminal. Once the query is provided, successful execution records resulting rankings in search_results.json under the test_data directory.
 
 FYI, the preprocessing program can be ran with:
 
