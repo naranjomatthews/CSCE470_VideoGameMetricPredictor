@@ -1,3 +1,7 @@
 .venv/
 summaries/
-.Data/
+Data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
