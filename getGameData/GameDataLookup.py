@@ -4,19 +4,23 @@ class GameData:
 
     # features to retrieve from the preprocessedJSON.
     GAME_FIELDS = [
-        "title",
-        "description",
+        "name", # title
+        "about_the_game", # shorter description
         "tags",
         "genres",
         "rating",
         "positive",
         "negative",
         "recommendations",
-        "downloads"
+        "metacritic_score"
     ]
 
-    def __init__(self, filePath):
-        with open(filePath, "r", encoding="utf-8") as file:
+    def __init__(self, data_dir):
+
+        self.data_dir = data_dir
+        self.RAW_GAMES_PATH = data_dir / "games.json"
+        
+        with open(self.RAW_GAMES_PATH, "r", encoding="utf-8") as file:
             self.gameData = json.load(file)
 
 
@@ -49,9 +53,8 @@ class GameData:
 
             # add the current game to the results list
             results.append(selectedGame)
-
+        
         return results
-
 
 # test code
 if __name__ == "__main__":

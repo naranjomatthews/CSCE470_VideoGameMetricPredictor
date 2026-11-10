@@ -4,17 +4,21 @@ import ijson
 import json
 import re #helps extract numbers from a string
 
+from project_paths import DATA_DIR, DATA_PATH
+from getGameData.GameDataLookup import GameData
+
 #how many games will be output in final ranking
 topX = 10
 
 #paths to access game and inverted index data
-DATA_FOLDER = DATA_PATH = Path(__file__).parent.parent / "Data" 
-GAMES_PATH = DATA_FOLDER / "preprocessed_games.json"
-INVERTED_INDEX_PATH = DATA_FOLDER / "inverted_index.json"
+GAMES_PATH = DATA_DIR / "preprocessed_games.json"
+INVERTED_INDEX_PATH = DATA_DIR / "inverted_index.json"
 
 #paths to the the original game data and ranking results
-RAW_GAMES_PATH = DATA_FOLDER / "games.json"
-RANKINGS_PATH = DATA_FOLDER / "rankings.json"
+RAW_GAMES_PATH = DATA_PATH
+RANKINGS_PATH = DATA_DIR / "rankings.json"
+
+RESULTS_PATH = DATA_DIR / "search_results.json"
 
 class bm25ranker:
 
@@ -96,6 +100,22 @@ class bm25ranker:
         self.ntfScores = {}
 
 
+    def runQuery(self, query):
+
+        # construct bag of words for query and compute scores 
+        queryBow= {}
+        queryWords = query.lower().split()
+        for word in queryWords:
+            if(word not in queryBow.keys()):
+                queryBow[word] = 1
+            else:
+                queryBow[word] += 1
+
+        results = self.calculateScore(queryBow)
+
+        return results
+
+
     def calculateScore(self,queryBow):
         with open(INVERTED_INDEX_PATH, "rb") as indexFile:
                 index = json.load(indexFile)
@@ -143,7 +163,10 @@ class bm25ranker:
                         #print("Check")
                         #if(count == 100):    
                         #    break
-        return self.topScores 
+        
+        # Sort top (gameID, score)s and return
+        results = sorted(self.topScores.items(), key=lambda item: (-item[1], item[0]))
+        return results 
         
         
 
@@ -233,41 +256,41 @@ class bm25ranker:
         return found
 
     #sort by score and save games in a JSON file
-    def save_rankings(self, query, scores):
-        sorted_scores = sorted(scores.items(), key=lambda item: (-item[1], item[0]))
 
-        docIDs = [gameID for gameID, score in sorted_scores]
+def save_rankings(query, sorted_scores, game_data, out_path):
 
-        game_data = self.getGameData(docIDs) if RAW_GAMES_PATH.exists() else {}
+    if len(sorted_scores) != len(game_data):
+        raise ValueError("game data doesn't match size of sorted scores")
 
-        rankings = []
+    rankings = []
 
-        for rank, (gameID, score) in enumerate(sorted_scores, start=1):
-            result = {
-                "rank": rank,
-                "docID": gameID,
-                "score": round(score, 6)
-            }
+    for rank, (gameID, score) in enumerate(sorted_scores, start=1):
+        result = {
+            "rank": rank,
+            "docID": gameID,
+            "score": round(score, 6)
+        }
 
-            if gameID in game_data:
-                result.update(game_data[gameID])
+        result.update(game_data[rank - 1])
+        rankings.append(result)
 
-            rankings.append(result)
+    with open(out_path, "w", encoding="utf-8") as output_file:
+        json.dump(
+            {
+                "query": query,
+                "rankings": rankings
+            },
+            output_file,
+            indent=2
+        )
 
-        with open(RANKINGS_PATH, "w", encoding="utf-8") as output_file:
-            json.dump(
-                {
-                    "query": query,
-                    "rankings": rankings
-                },
-                output_file,
-                indent=2
-            )
+    print("Wrote top " + str(topX) + " results to " + str(out_path))
 
-        return rankings
+    return rankings
 
 def main():
     bm25f = bm25ranker()
+    GameFetcher = GameData(DATA_DIR)
     
     #get the games and inverted index
     #games = ijson.kvitems(open(GAMES_PATH, "rb"),'')
@@ -280,17 +303,15 @@ def main():
         if(query == ""):
             break
     
-        #construct bag of words for query
-        queryBow= {}
-        queryWords = query.lower().split()
-        for word in queryWords:
-            if(word not in queryBow.keys()):
-                queryBow[word] = 1
-            else:
-                queryBow[word] += 1
-        
-        topGames = bm25f.calculateScore(queryBow)
-        rankings = bm25f.save_rankings(query, topGames) #save rankings to JSON file
+        top_games_and_scores = bm25f.runQuery(query)
+        top_IDs = [game_score[0] for game_score in top_games_and_scores] 
+
+        # print("TOP IDS: " + str(top_IDs))
+
+        top_games_info = GameFetcher.getGameData(top_IDs)
+
+        # print(top_games_info)
+        save_rankings(query, top_games_and_scores, top_games_info, RESULTS_PATH)
 
 if __name__ == "__main__":
     main()

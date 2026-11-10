@@ -1,18 +1,16 @@
-from pathlib import Path
 import re
 import html 
 import ijson 
 import json
 from collections import Counter
 
+from project_paths import DATA_DIR, DATA_PATH
+
 TESTING = True
 TEST_SIZE = 200
 
-DATA_FOLDER = DATA_PATH = Path(__file__).parent.parent / "Data" 
-DATA_PATH = DATA_FOLDER / "games.json"
-
-PREPROCESSED_OUT_PATH = DATA_FOLDER / "preprocessed_games.json"
-INVERTED_OUT_PATH = DATA_FOLDER / "inverted_index.json"
+PREPROCESSED_OUT_PATH = DATA_DIR / "preprocessed_games.json"
+INVERTED_OUT_PATH = DATA_DIR / "inverted_index.json"
 
 # tokenizer pieces
 TAG_RE = re.compile(r"<[^>]+>")
